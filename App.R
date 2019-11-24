@@ -2,11 +2,12 @@ library(shiny)
 library(ggmap)
 library(leaflet)
 library(C3)
+library(dplyr)
 
 r_colors <- rgb(t(col2rgb(colors()) / 255))
 names(r_colors) <- colors()
 
-business_csv <- '/Users/venkatakoonaparaju/Downloads/yelp_dataset/business_parsed.csv'
+business_csv <- 'data/business_parsed.csv'
 result <- read.csv(business_csv, header = TRUE, sep = ',')
 
 getSeries <- function( n = 100, drift = 0.1, walk = 4, scale = 100){
@@ -14,18 +15,7 @@ getSeries <- function( n = 100, drift = 0.1, walk = 4, scale = 100){
   return(y + abs(min(y)))
 }
 
-ui <- fluidPage(
-    titlePanel("Foodie call"),
-    sidebarLayout(
-      position = "right",
-    sidebarPanel(
-      selectInput('location', 'Location', choices = unique(result$city), selected = 'Seattle')
-      ),
-      mainPanel(
-        leafletOutput("mymap")
-      )
-    )
-  )
+
 
 server <- function(input, output){
   #output$distplot <- renderPlot({
@@ -84,6 +74,10 @@ server <- function(input, output){
     C3LineBarChart(dataset = dataset, colors = colors)
   })
   
+  output$barchart <-renderC3BarChart({
+    dataset <- count(result, rating, name='count')
+    C3BarChart(dataset)
+  })
   observe({
     if (is.null(input$location))
       return()
@@ -106,7 +100,8 @@ ui_2 <- fluidPage(
       # example use of the automatically generated output function
       #C3GaugeOutput("gauge1")
       fluidRow(C3PieOutput('pie1',height = 250)), 
-      fluidRow(C3LineBarChartOutput('linebarchart', height = 250)) 
+      fluidRow(C3LineBarChartOutput('linebarchart', height = 250)), 
+      fluidRow(C3BarChartOutput('barchart', height = 250)) 
     ),
     mainPanel(
       leafletOutput("mymap")
