@@ -1,0 +1,462 @@
+,business_id,name,address,city,state,postal_code,latitude,longitude,stars,review_count,rating,price,RestaurantsTableService,RestaurantsTakeOut,RestaurantsPriceRange2,id,alias,Grade,zipcode,location
+0,67QmiVYdCbG4PRmF61A5bw,Il Corvo Pasta,217 James St,Seattle,WA,98104,47.60244,-122.33165,,1240,4.5,$$,,,,67QmiVYdCbG4PRmF61A5bw,il-corvo-pasta-seattle,1.0,98104,Pioneer Square
+1,ySKMvcI3ImApkkMkSjna9A,Mike's Noodle House,418 Maynard Ave S,Seattle,WA,98104,47.59859,-122.32481999999999,,1060,4.0,$,,,,ySKMvcI3ImApkkMkSjna9A,mikes-noodle-house-seattle,,98104,Pioneer Square
+2,bzX2yVjfPEOBzBnZeWXQKQ,A + Hong Kong Kitchen,419 6th Ave S,Seattle,WA,98104,47.59854,-122.32652,,496,4.0,$,,,,bzX2yVjfPEOBzBnZeWXQKQ,a-hong-kong-kitchen-seattle,,98104,Pioneer Square
+3,cDoFLe0IU1uc7CCPpje0oA,Chengdu Memory,520 S Jackson St,Seattle,WA,98104,47.599369,-122.326621,,107,4.0,,,,,cDoFLe0IU1uc7CCPpje0oA,chengdu-memory-seattle,2.0,98104,Pioneer Square
+4,OjX2LacSZd_w2Olmx55HJA,Harbor City Restaurant,707 S King St,Seattle,WA,98104,47.598209999999995,-122.32338999999999,,1554,4.0,$$,,,,OjX2LacSZd_w2Olmx55HJA,harbor-city-restaurant-seattle,3.0,98104,Pioneer Square
+5,0GMUVpxMjRrKk7vJO3EC8w,King Noodle,615 S King St,Seattle,WA,98104,47.5982,-122.32551000000001,,564,4.0,$,,,,0GMUVpxMjRrKk7vJO3EC8w,king-noodle-seattle,2.0,98104,Pioneer Square
+6,E4PzUSFuduzS6tLmGgosoQ,Tamarind Tree,1036 S Jackson St,Seattle,WA,98104,47.599840664555906,-122.317832050262,,1338,4.0,$$,,,,E4PzUSFuduzS6tLmGgosoQ,tamarind-tree-seattle,2.0,98104,Pioneer Square
+7,_3wrETt6P6f41qZUYCu76w,Gan Bei,670 S Weller St,Seattle,WA,98104,47.59768,-122.32413000000001,,38,4.5,,,,,_3wrETt6P6f41qZUYCu76w,gan-bei-seattle,,98104,Pioneer Square
+8,GFd_8ntaINMcZzm-rZqV2g,Momosan Ramen & Sake,504 5th Ave S,Seattle,WA,98104,47.5976467887569,-122.32718266546699,,157,3.5,$$,,,,GFd_8ntaINMcZzm-rZqV2g,momosan-ramen-and-sake-seattle,2.0,98104,Pioneer Square
+9,JWtrqqPxfmc3g0NPoBJV3w,Sizzling Pot King,660 S King St,Seattle,WA,98104,47.5985,-122.32445,,100,4.0,,,,,JWtrqqPxfmc3g0NPoBJV3w,sizzling-pot-king-seattle-2,3.0,98104,Pioneer Square
+10,JWtrqqPxfmc3g0NPoBJV3w,Sizzling Pot King,660 S King St,Seattle,WA,98104,47.5985,-122.32445,,100,4.0,,,,,JWtrqqPxfmc3g0NPoBJV3w,sizzling-pot-king-seattle-2,2.0,98104,Pioneer Square
+11,Y-OgQKqreMaajTUCPbLPKg,Tsukushinbo,515 S Main St,Seattle,WA,98104,47.59985,-122.32681000000001,,873,4.0,$$,,,,Y-OgQKqreMaajTUCPbLPKg,tsukushinbo-seattle,2.0,98104,Pioneer Square
+12,DzLycxXa20wdlYeTcyc5-A,Dough Zone Dumpling House,504 5th Ave S,Seattle,WA,98104,47.597879999999996,-122.32749,,868,4.0,$$,,,,DzLycxXa20wdlYeTcyc5-A,dough-zone-dumpling-house-seattle-2,1.0,98104,Pioneer Square
+13,M5gjalaqrlkVm55RHqiaaA,Maneki,304 6th Ave S,Seattle,WA,98104,47.599740000000004,-122.32614,,1150,4.0,$$,,,,M5gjalaqrlkVm55RHqiaaA,maneki-seattle,1.0,98104,Pioneer Square
+14,p1TOF1XkXzLx3a-LF3lDlw,Taylor Shellfish Oyster Bar,410 Occidental Ave S,Seattle,WA,98104,47.59884,-122.33268000000001,,673,4.5,$$,,,,p1TOF1XkXzLx3a-LF3lDlw,taylor-shellfish-oyster-bar-seattle-2,1.0,98104,Pioneer Square
+15,EK8gFCM9_kQCje9Sh-ZP3w,Metropolitan Deli Cafe FH,514 Terry Ave,Seattle,WA,98104,47.6057868,-122.3232129,,5,5.0,,,,,EK8gFCM9_kQCje9Sh-ZP3w,metropolitan-deli-cafe-fh-seattle-2,1.0,98104,Pioneer Square
+16,hj9s0BVirRTTS4ZV_DtRtw,Sichuanese Cuisine,1048 S Jackson St,Seattle,WA,98104,47.5993655520798,-122.317549573997,,623,4.0,$$,,,,hj9s0BVirRTTS4ZV_DtRtw,sichuanese-cuisine-seattle,2.0,98104,Pioneer Square
+17,feGvRu6xqae3--1N3gjz-Q,Mr Saigon,161 S Washington St,Seattle,WA,98104,47.60074,-122.33242,,8,4.5,,,,,feGvRu6xqae3--1N3gjz-Q,mr-saigon-seattle-6,3.0,98104,Pioneer Square
+18,e8UiD4SOyfyv5PIB5i1EvQ,Kau Kau Barbeque,656 S King St,Seattle,WA,98104,47.59847,-122.32471000000001,,979,4.0,$$,,,,e8UiD4SOyfyv5PIB5i1EvQ,kau-kau-barbeque-seattle,2.0,98104,Pioneer Square
+19,lxvncNXJKThTmLmARv72pA,Metropolitan Grill,820 2nd Ave,Seattle,WA,98104,47.604438,-122.334126,,1691,4.0,$$$$,,,,lxvncNXJKThTmLmARv72pA,metropolitan-grill-seattle,1.0,98104,Pioneer Square
+20,lqxaHsByP4IDsWlrqXhCDQ,Tat's Delicatessen,159 Yesler Way,Seattle,WA,98104,47.6015989850198,-122.332317061304,,1126,4.5,$$,,,,lqxaHsByP4IDsWlrqXhCDQ,tats-delicatessen-seattle,2.0,98104,Pioneer Square
+21,el6YmQ5Y4ispZQvqm-bz6w,Homestyle Dim Sum,664 S Weller St,Seattle,WA,98104,47.5976300583,-122.324270122,,17,4.0,,,,,el6YmQ5Y4ispZQvqm-bz6w,homestyle-dim-sum-seattle-2,,98104,Pioneer Square
+22,UaszJCXczQ-djWsQ0ylVAA,Damn the Weather,116 1st Ave S,Seattle,WA,98104,47.6011167,-122.3340814,,440,4.0,$$,,,,UaszJCXczQ-djWsQ0ylVAA,damn-the-weather-seattle,1.0,98104,Pioneer Square
+23,lVSi-ilqM8FzT_HnK7cQ4A,Il Terrazzo Carmine,411 1st Ave S,Seattle,WA,98104,47.598694662445,-122.33460180661001,,434,4.5,$$$,,,,lVSi-ilqM8FzT_HnK7cQ4A,il-terrazzo-carmine-seattle,2.0,98104,Pioneer Square
+24,1GYKkZm14lZZHdvFkAtSXw,Intermezzo Carmine,409 1st Ave S,Seattle,WA,98104,47.5988331,-122.33426509999998,,229,4.5,$$,,,,1GYKkZm14lZZHdvFkAtSXw,intermezzo-carmine-seattle-2,1.0,98104,Pioneer Square
+25,KFMsgY5mV_wCYsa0XX_hEQ,Bad Bishop,704 1st Ave,Seattle,WA,98104,47.60286,-122.33426999999999,,41,4.5,,,,,KFMsgY5mV_wCYsa0XX_hEQ,bad-bishop-seattle,1.0,98104,Pioneer Square
+26,ug_QHgsMXDO16_lSs6ywRQ,Pacific Cafe Hong Kong Kitchen,416 5th Ave S,Seattle,WA,98104,47.59865,-122.32749,,259,4.0,$,,,,ug_QHgsMXDO16_lSs6ywRQ,pacific-cafe-hong-kong-kitchen-seattle-2,1.0,98104,Pioneer Square
+27,GoWeog3TbHM6SL9dL_AnTA,Jade Garden,424 7th Ave S,Seattle,WA,98104,47.5985020713873,-122.32351541519199,,1423,3.5,$$,,,,GoWeog3TbHM6SL9dL_AnTA,jade-garden-seattle,2.0,98104,Pioneer Square
+28,bgonx3GuERtap8Np7Y7IFA,Lan Huê Sandwich & Bakery,900 S Jackson St,Seattle,WA,98104,47.5995,-122.32033,,188,4.5,$,,,,bgonx3GuERtap8Np7Y7IFA,lan-hu√™-sandwich-and-bakery-seattle,4.0,98104,Pioneer Square
+29,GXz21OgpWOtnCF0GDXHPhA,Nirmal's,106 Occidental Ave S,Seattle,WA,98104,47.60147,-122.33261999999999,,555,4.0,$$,,,,GXz21OgpWOtnCF0GDXHPhA,nirmals-seattle,2.0,98104,Pioneer Square
+30,v2qc6PA2x8OkySKtMTx10g,Dynasty Room,714 S King St,Seattle,WA,98104,47.59863,-122.32298,,59,4.5,$,,,,v2qc6PA2x8OkySKtMTx10g,dynasty-room-seattle-5,2.0,98104,Pioneer Square
+31,nPVDL8Iu3ourycexssk9tA,Vito's,927 Ninth Ave,Seattle,WA,98104,47.608253999999995,-122.32737900000001,,430,4.0,$$,,,,nPVDL8Iu3ourycexssk9tA,vitos-seattle,1.0,98104,Pioneer Square
+32,ugTsEtjvwRhteac_6JcuPw,Italian Family Pizza,1028 Madison St,Seattle,WA,98104,47.6093542,-122.3255851,,906,4.5,$$,,,,ugTsEtjvwRhteac_6JcuPw,italian-family-pizza-seattle,2.0,98104,Pioneer Square
+33,0zyWCjmU4q3D2YJzJUULqA,Gourmet Noodle Bowl,707 8th Ave S,Seattle,WA,98104,47.596323,-122.32267900000001,,398,4.0,$$,,,,0zyWCjmU4q3D2YJzJUULqA,gourmet-noodle-bowl-seattle,,98104,Pioneer Square
+34,ciV8H5iXZyx9S4JDfdSqhg,Pho Ba,415 7th Ave S,Seattle,WA,98104,47.598683,-122.32371200000001,,417,4.0,$,,,,ciV8H5iXZyx9S4JDfdSqhg,pho-ba-seattle-4,3.0,98104,Pioneer Square
+35,_aLHbaIPEO0mb3KzDkRLZw,Dead Line,114 1st Ave S,Seattle,WA,98104,47.60114,-122.33379,,151,4.5,$$,,,,_aLHbaIPEO0mb3KzDkRLZw,dead-line-seattle,1.0,98104,Pioneer Square
+36,dtbi_nktizjjnwJqVEzieQ,Szechuan Noodle Bowl,420 8th Ave S,Seattle,WA,98104,47.59857,-122.32222,,314,4.0,$,,,,dtbi_nktizjjnwJqVEzieQ,szechuan-noodle-bowl-seattle,,98104,Pioneer Square
+37,LKNeBxs0pl1oiAQ2LpmTgg,Green Leaf Vietnamese Restaurant,418 8th Ave S,Seattle,WA,98104,47.59852,-122.3222,,1116,4.0,$$,,,,LKNeBxs0pl1oiAQ2LpmTgg,green-leaf-vietnamese-restaurant-seattle,2.0,98104,Pioneer Square
+38,LKNeBxs0pl1oiAQ2LpmTgg,Green Leaf Vietnamese Restaurant,418 8th Ave S,Seattle,WA,98104,47.59852,-122.3222,,1116,4.0,$$,,,,LKNeBxs0pl1oiAQ2LpmTgg,green-leaf-vietnamese-restaurant-seattle,3.0,98104,Pioneer Square
+39,pP5_BKZGvUjKglNIMfIGKg,LuoSiFen,514 S King St,Seattle,WA,98104,47.598595,-122.32716833,,34,4.0,,,,,pP5_BKZGvUjKglNIMfIGKg,luosifen-seattle,,98104,Pioneer Square
+40,UzeuW2PwabdLQjrS4E6_kg,Biscuit Bitch,621 3rd Ave,Seattle,WA,98104,47.60324,-122.3321,,1069,4.5,$,,,,UzeuW2PwabdLQjrS4E6_kg,biscuit-bitch-seattle-5,1.0,98104,Pioneer Square
+41,vjeyNatt5L0F5qcHgKZeWw,One Pot,506 12th Ave S,Seattle,WA,98144,47.59805,-122.31698999999999,,264,4.5,$$,,,,vjeyNatt5L0F5qcHgKZeWw,one-pot-seattle-3,2.0,98144,Mt. Baker
+42,HHeRpP4mJUnABMR43TqQGQ,Pho Bac Súp Shop,1240 S Jackson St,Seattle,WA,98144,47.599506,-122.315385,,465,4.0,$$,,,,HHeRpP4mJUnABMR43TqQGQ,pho-bac-s√∫p-shop-seattle-6,3.0,98144,Mt. Baker
+43,qESIVKVPI-Ubz9FVNNDtiA,Hue Ky Mi Gia,1207 S Jackson St,Seattle,WA,98144,47.59906922699861,-122.316223301189,,511,4.0,$,,,,qESIVKVPI-Ubz9FVNNDtiA,hue-ky-mi-gia-seattle,2.0,98144,Mt. Baker
+44,qESIVKVPI-Ubz9FVNNDtiA,Hue Ky Mi Gia,1207 S Jackson St,Seattle,WA,98144,47.59906922699861,-122.316223301189,,511,4.0,$,,,,qESIVKVPI-Ubz9FVNNDtiA,hue-ky-mi-gia-seattle,3.0,98144,Mt. Baker
+45,Rr4KFyLV0kEXLdJqjuyhEA,Dong Thap Noodles,303 12th Ave S,Seattle,WA,98144,47.599758,-122.31745900000001,,508,4.0,$$,,,,Rr4KFyLV0kEXLdJqjuyhEA,dong-thap-noodles-seattle,2.0,98144,Mt. Baker
+46,XE0C4z-DByNlXZ2IUtouhA,Reckless Noodle House,2519 S Jackson St,Seattle,WA,98144,47.5991,-122.29906000000001,,183,4.5,$$,,,,XE0C4z-DByNlXZ2IUtouhA,reckless-noodle-house-seattle-2,1.0,98144,Mt. Baker
+47,E0jzAxh2u7ifsOeZ4qnp6A,Wood Shop BBQ,2513 S Jackson St,Seattle,WA,98144,47.599059999999994,-122.29914,,437,4.5,$$,,,,E0jzAxh2u7ifsOeZ4qnp6A,wood-shop-bbq-seattle,1.0,98144,Mt. Baker
+48,gZ7GyCmg6lmrqsAIGjlazQ,Med Mix,2204 S Jackson St,Seattle,WA,98144,47.59946,-122.30301999999999,,79,4.5,$,,,,gZ7GyCmg6lmrqsAIGjlazQ,med-mix-seattle-4,,98144,Mt. Baker
+49,Wi6LFkjIausYj277ru6pqg,Humble Pie,525 Rainier Ave S,Seattle,WA,98144,47.59764919150129,-122.313305988361,,281,4.0,$$,,,,Wi6LFkjIausYj277ru6pqg,humble-pie-seattle,2.0,98144,Mt. Baker
+50,7eoMEbus8ANI15VuYzUNkQ,Moonlight Cafe,1919 S Jackson St,Seattle,WA,98144,47.59901,-122.30672,,403,4.0,$,,,,7eoMEbus8ANI15VuYzUNkQ,moonlight-cafe-seattle,2.0,98144,Mt. Baker
+51,et4eWK49x5od4lfqCukG6w,Central Pizza,2901 S Jackson St,Seattle,WA,98144,47.598976,-122.29468500000002,,147,4.0,$$,,,,et4eWK49x5od4lfqCukG6w,central-pizza-seattle,1.0,98144,Mt. Baker
+52,YJMvXVKnCKy99prNe1zpWg,Quick Pack Food Mart,2616 S Jackson St,Seattle,WA,98144,47.59941,-122.29781000000001,,67,4.5,$,,,,YJMvXVKnCKy99prNe1zpWg,quick-pack-food-mart-seattle,1.0,98144,Mt. Baker
+53,IIHDuM9KiNBwL3mm5et_IA,That's Amore! Italian Cafe,1425 31st Ave S,Seattle,WA,98144,47.58956,-122.29267,,277,4.5,$$,,,,IIHDuM9KiNBwL3mm5et_IA,thats-amore-italian-cafe-seattle,1.0,98144,Mt. Baker
+54,OXkT4ZYdVhbIOQOKpkU3PQ,iconiq,1421 31st Ave S,Seattle,WA,98144,47.589659999999995,-122.29267,,84,4.5,$$$,,,,OXkT4ZYdVhbIOQOKpkU3PQ,iconiq-seattle,1.0,98144,Mt. Baker
+55,FLp-jLL5E09T_wMQMbZq2Q,Little Chengdu,2815 S Hanford St,Seattle,WA,98144,47.574709999999996,-122.29583000000001,,144,4.0,$$,,,,FLp-jLL5E09T_wMQMbZq2Q,little-chengdu-seattle-2,2.0,98144,Mt. Baker
+56,PpAiLhErwd08QhPb06_-hA,Mioposto,3601 S McClellan St,Seattle,WA,98144,47.57802,-122.28808000000001,,300,4.0,$$,,,,PpAiLhErwd08QhPb06_-hA,mioposto-seattle-7,1.0,98144,Mt. Baker
+57,cqZVevkE28GrWXDymahdGw,Viengthong,2820 Martin Luther King Jr Way S,Seattle,WA,98144,47.5778713,-122.2959774,,181,4.0,$$,,,,cqZVevkE28GrWXDymahdGw,viengthong-seattle,2.0,98144,Mt. Baker
+58,lkplVF1__QuD6tKWg0SVLQ,Homer,3013 Beacon Ave S,Seattle,WA,98144,47.5766857672746,-122.30999678912599,,133,4.5,,,,,lkplVF1__QuD6tKWg0SVLQ,homer-seattle,1.0,98144,Mt. Baker
+59,YJxzuhg15f31WNgDQfiwMw,Cafe Ibex,3219 Martin Luther King Jr Way S,Seattle,WA,98144,47.574278289178,-122.29732096801001,,139,4.5,$$,,,,YJxzuhg15f31WNgDQfiwMw,cafe-ibex-seattle,1.0,98144,Mt. Baker
+60,U_UsR_5QMfM0eYCdEATOiA,Chicken Express,3621 33rd Ave S,Seattle,WA,98144,47.57111,-122.29126000000001,,25,4.0,$,,,,U_UsR_5QMfM0eYCdEATOiA,chicken-express-seattle-2,2.0,98144,Mt. Baker
+61,FAjgdbv_fOaiQS62YsJMpw,Emerald City Fish & Chips,3756 Rainier Ave S,Seattle,WA,98144,47.57002,-122.29063000000001,,426,4.0,$,,,,FAjgdbv_fOaiQS62YsJMpw,emerald-city-fish-and-chips-seattle,1.0,98144,Mt. Baker
+62,zHmML0gcOjcg6E5svYiXMQ,Pho Bac,3300 Rainier Ave S,Seattle,WA,98144,47.573819,-122.29448000000001,,93,4.0,$,,,,zHmML0gcOjcg6E5svYiXMQ,pho-bac-seattle-13,3.0,98144,Mt. Baker
+63,zHmML0gcOjcg6E5svYiXMQ,Pho Bac,3300 Rainier Ave S,Seattle,WA,98144,47.573819,-122.29448000000001,,93,4.0,$,,,,zHmML0gcOjcg6E5svYiXMQ,pho-bac-seattle-13,2.0,98144,Mt. Baker
+64,aniQQPMor4DPDF43t2inEw,Wingstop,3206 Rainier Ave S,Seattle,WA,98144,47.574690000000004,-122.29516000000001,,12,4.0,,,,,aniQQPMor4DPDF43t2inEw,wingstop-seattle-5,1.0,98144,Mt. Baker
+65,aniQQPMor4DPDF43t2inEw,Wingstop,3206 Rainier Ave S,Seattle,WA,98144,47.574690000000004,-122.29516000000001,,12,4.0,,,,,aniQQPMor4DPDF43t2inEw,wingstop-seattle-5,2.0,98144,Mt. Baker
+66,gFJ5odOUmD65EOrwv-Xf7w,Buddha Bruddah,2201 Rainier Ave S,Seattle,WA,98144,47.583290000000005,-122.30248999999999,,157,4.0,$$,,,,gFJ5odOUmD65EOrwv-Xf7w,buddha-bruddah-seattle-2,1.0,98144,Mt. Baker
+67,s3BaELzbrfq9va1X0tYTJA,Perihelion Brewery,2800 16th Ave S,Seattle,WA,98144,47.57844,-122.31182,,248,4.5,$$,,,,s3BaELzbrfq9va1X0tYTJA,perihelion-brewery-seattle,1.0,98144,Mt. Baker
+68,T5F_hgdrYRIiIqYPKdGvzg,Nikos Gyros,1636 S McClellan St,Seattle,WA,98144,47.57871666301661,-122.31115110218501,,38,4.5,,,,,T5F_hgdrYRIiIqYPKdGvzg,nikos-gyros-seattle-2,2.0,98144,Mt. Baker
+69,T5F_hgdrYRIiIqYPKdGvzg,Nikos Gyros,1636 S McClellan St,Seattle,WA,98144,47.57871666301661,-122.31115110218501,,38,4.5,,,,,T5F_hgdrYRIiIqYPKdGvzg,nikos-gyros-seattle-2,1.0,98144,Mt. Baker
+70,us53L9b9r_UYxZcQLh5LYQ,Thai Recipe Restaurant,2609 S McClellan St,Seattle,WA,98144,47.578252,-122.29905900000001,,224,4.0,$,,,,us53L9b9r_UYxZcQLh5LYQ,thai-recipe-restaurant-seattle,1.0,98144,Mt. Baker
+71,iEKfq5td_rawmJit6-a5ng,Heyday,1372 31st Ave S,Seattle,WA,98144,47.590540000000004,-122.29218999999999,,227,4.5,$$,,,,iEKfq5td_rawmJit6-a5ng,heyday-seattle,2.0,98144,Mt. Baker
+72,duu0PHYLfb5bndqcNEVS2Q,Bar Del Corso,3057 Beacon Ave S,Seattle,WA,98144,47.57544,-122.30956,,333,4.0,$$,,,,duu0PHYLfb5bndqcNEVS2Q,bar-del-corso-seattle,1.0,98144,Mt. Baker
+73,81c6QGux2_uCl7d3DGnTxQ,Cafe Vizcaya,2532 Beacon Ave S,Seattle,WA,98144,47.58016,-122.31272,,39,4.5,,,,,81c6QGux2_uCl7d3DGnTxQ,cafe-vizcaya-seattle-6,1.0,98144,Mt. Baker
+74,sz8nFglGE9M3NNF2XUdEPQ,Tacos Chukis,1608 S Roberto Maestas Festival St,Seattle,WA,98144,47.57965,-122.31145,,138,4.5,$,,,,sz8nFglGE9M3NNF2XUdEPQ,tacos-chukis-seattle-8,1.0,98144,Mt. Baker
+75,sz8nFglGE9M3NNF2XUdEPQ,Tacos Chukis,1608 S Roberto Maestas Festival St,Seattle,WA,98144,47.57965,-122.31145,,138,4.5,$,,,,sz8nFglGE9M3NNF2XUdEPQ,tacos-chukis-seattle-8,2.0,98144,Mt. Baker
+76,vB0EMRG2vo7a2K3fGXDtag,Oak,3019 Beacon Ave S,Seattle,WA,98144,47.5764,-122.31001,,249,4.0,$$,,,,vB0EMRG2vo7a2K3fGXDtag,oak-seattle-2,1.0,98144,Mt. Baker
+77,tJ2Pp_GoSbnHlyIixWfcJw,Tippe and Drague Alehouse,3315 Beacon Ave S,Seattle,WA,98144,47.5736,-122.309,,157,4.5,$$,,,,tJ2Pp_GoSbnHlyIixWfcJw,tippe-and-drague-alehouse-seattle,1.0,98144,Mt. Baker
+78,_ZidcNRRtcd7v45iFc8pgQ,Rain City Hot Dogs,2700 Rainier Ave S,Seattle,WA,98144,47.5793307,-122.29755359999999,,34,4.5,,,,,_ZidcNRRtcd7v45iFc8pgQ,rain-city-hot-dogs-seattle-2,2.0,98144,Mt. Baker
+79,F2TCJDirosibZ8ZrR6R7oA,Red Sea Bar & Restaurant,2814 Martin Luther King Jr Way S,Seattle,WA,98144,47.57767,-122.29588999999999,,4,5.0,,,,,F2TCJDirosibZ8ZrR6R7oA,red-sea-bar-and-restaurant-seattle,2.0,98144,Mt. Baker
+80,ZTJp0VGnGth0KpQgt-DHGw,Musang Seattle,3057 Beacon Ave S,Seattle,WA,98144,47.575368795836106,-122.309619225562,,1,5.0,,,,,ZTJp0VGnGth0KpQgt-DHGw,musang-seattle-seattle-2,,98144,Mt. Baker
+81,jOAXgMYGp8wXXW1YE3yMhg,El Quetzal,3209 Beacon Ave S,Seattle,WA,98144,47.574740000000006,-122.30933999999999,,285,4.0,$$,,,,jOAXgMYGp8wXXW1YE3yMhg,el-quetzal-seattle-2,1.0,98144,Mt. Baker
+82,4Ncx7VGgCfUbKUlbenJOmQ,Thien Phat,3330 Rainier Ave S,Seattle,WA,98144,47.57325,-122.29373000000001,,82,3.5,$,,,,4Ncx7VGgCfUbKUlbenJOmQ,thien-phat-seattle,2.0,98144,Mt. Baker
+83,N2E6bOyKqwHWClwVTYPaEA,Carnitas Michoacan,2503 Beacon Ave S,Seattle,WA,98144,47.58083,-122.31393999999999,,109,4.5,$,,,,N2E6bOyKqwHWClwVTYPaEA,carnitas-michoacan-seattle-2,2.0,98144,Mt. Baker
+84,IAtb94IYM9W7eochBRPoKA,Ba Bar,550 12th Ave,Seattle,WA,98122,47.60699,-122.31648,,1250,3.5,$$,,,,IAtb94IYM9W7eochBRPoKA,ba-bar-seattle,2.0,98122,Central District
+85,TdoP-vHFYsBU6oQ3Le5lBQ,Bonchon - First Hill,554 Broadway,Seattle,WA,98122,47.60679999998071,-122.32069330607,,177,3.0,$$,,,,TdoP-vHFYsBU6oQ3Le5lBQ,bonchon-first-hill-seattle,2.0,98122,Central District
+86,FiqWlQ9hlnD5adZ_F-cUBg,Taste Of The Caribbean,1212 E Jefferson St,Seattle,WA,98122,47.606444700000004,-122.3159876,,203,4.0,$$,,,,FiqWlQ9hlnD5adZ_F-cUBg,taste-of-the-caribbean-seattle-2,2.0,98122,Central District
+87,S2UEfSEFbaQRgg7sp3Yo9g,Central Smoke Bar and Smokery,1305 E Jefferson,Seattle,WA,98122,47.606006799999996,-122.31512648299999,,73,4.0,,,,,S2UEfSEFbaQRgg7sp3Yo9g,central-smoke-bar-and-smokery-seattle,,98122,Central District
+88,rXbU5HJx6mihqazytPTgXA,Kedai Makan,1802 Bellevue Ave,Seattle,WA,98122,47.6179,-122.32658,,834,4.5,$$,,,,rXbU5HJx6mihqazytPTgXA,kedai-makan-seattle-4,1.0,98122,Central District
+89,JQAKcOzObl2I7vLKZLkBdQ,Fogón Cocina Mexicana,600 E Pine St,Seattle,WA,98122,47.615379299999994,-122.3240814,,1374,4.5,$$,,,,JQAKcOzObl2I7vLKZLkBdQ,fog√≥n-cocina-mexicana-seattle-2,3.0,98122,Central District
+90,m7_Q-ap4MmrYs2qc4X7PyQ,Ramen Danbo,1222 E Pine St,Seattle,WA,98122,47.61548,-122.31594,,913,4.5,$$,,,,m7_Q-ap4MmrYs2qc4X7PyQ,ramen-danbo-seattle-2,1.0,98122,Central District
+91,_obwG8MG2OuFUe1TW3BjGw,Stateside,300 E Pike St,Seattle,WA,98122,47.6141895780828,-122.327432663824,,892,4.0,$$,,,,_obwG8MG2OuFUe1TW3BjGw,stateside-seattle-3,2.0,98122,Central District
+92,ZHvhh6G4jvS8YxViCzplwQ,Suika Seattle,611 E Pine St,Seattle,WA,98122,47.615113,-122.32389599999999,,717,4.0,$$,,,,ZHvhh6G4jvS8YxViCzplwQ,suika-seattle-seattle,2.0,98122,Central District
+93,qERtBPTw_lLv0fkxw3cRPw,Nue,1519 14th Ave,Seattle,WA,98122,47.61483,-122.3146,,880,4.0,$$,,,,qERtBPTw_lLv0fkxw3cRPw,nue-seattle,1.0,98122,Central District
+94,XoLfRZ0jA8cf_MYL90OgEA,Cascina Spinasse,1531 14th Ave,Seattle,WA,98122,47.61505,-122.31442,,993,4.5,$$$,,,,XoLfRZ0jA8cf_MYL90OgEA,cascina-spinasse-seattle,1.0,98122,Central District
+95,kibB0UPXfZaMauCBsON3nw,Tavolàta,501 E Pike St,Seattle,WA,98122,47.61374,-122.32518,,276,4.0,$$,,,,kibB0UPXfZaMauCBsON3nw,tavol√†ta-seattle-5,1.0,98122,Central District
+96,vs5dhED5Yf8kqPp06OD2QQ,Momiji,1522 12th Ave,Seattle,WA,98122,47.61482,-122.31657,,1382,4.0,$$,,,,vs5dhED5Yf8kqPp06OD2QQ,momiji-seattle,3.0,98122,Central District
+97,JAowO8zNOdbuP-lm2VCYyA,Mamnoon,1508 Melrose Ave,Seattle,WA,98122,47.61435,-122.3276,,922,4.0,$$,,,,JAowO8zNOdbuP-lm2VCYyA,mamnoon-seattle,2.0,98122,Central District
+98,_wPEVw2gQpySK5GCA3dbsA,Tamari Bar,500 E Pine St,Seattle,WA,98122,47.61537,-122.32534,,247,4.5,$$,,,,_wPEVw2gQpySK5GCA3dbsA,tamari-bar-seattle,1.0,98122,Central District
+99,cHdeTxAl2Z6zZKUtyeJHaA,Kizuki Ramen & Izakaya,320 E Pine St,Seattle,WA,98122,47.61538426299721,-122.327005895599,,1211,4.0,$$,,,,cHdeTxAl2Z6zZKUtyeJHaA,kizuki-ramen-and-izakaya-seattle-6,2.0,98122,Central District
+100,9QQ6PKGAJVEq-X5iyrJ5Gg,Yalla Seattle,1510 E Olive Way,Seattle,WA,98122,47.618065975877705,-122.32618519895901,,42,4.5,,,,,9QQ6PKGAJVEq-X5iyrJ5Gg,yalla-seattle-seattle,,98122,Central District
+101,xE45ZXWmwxVFJyz-MAsKRQ,Dacha Diner,1416 E Olive Way,Seattle,WA,98122,47.617594,-122.326596,,77,4.5,,,,,xE45ZXWmwxVFJyz-MAsKRQ,dacha-diner-seattle,,98122,Central District
+102,7Oj8IKp1pibP4huWecsQ6A,Quinn's,1001 E Pike St,Seattle,WA,98122,47.613859999999995,-122.31922,,1300,4.0,$$,,,,7Oj8IKp1pibP4huWecsQ6A,quinns-seattle,2.0,98122,Central District
+103,BvOLqjt68GEJREOYQ_vdHw,Taylor Shellfish Farms - Seattle,1521 Melrose Ave,Seattle,WA,98122,47.614652,-122.32808100000001,,996,4.0,$$,,,,BvOLqjt68GEJREOYQ_vdHw,taylor-shellfish-farms-seattle-seattle,1.0,98122,Central District
+104,fxyHWmfzcdjImgQ_UYHoTw,Bar Cotto,1546 15th Ave,Seattle,WA,98122,47.6146934,-122.3127642,,244,4.5,$$,,,,fxyHWmfzcdjImgQ_UYHoTw,bar-cotto-seattle,,98122,Central District
+105,vMAXUk26RY7xhLIq8GKcuw,Ooink,1416 Harvard Ave,Seattle,WA,98122,47.6135201,-122.32196509999999,,428,4.0,$$,,,,vMAXUk26RY7xhLIq8GKcuw,ooink-seattle,1.0,98122,Central District
+106,8drBw0cVNp1KqsLzRmokYA,Marination Station,1412 Harvard Ave,Seattle,WA,98122,47.61337,-122.32141999999999,,602,4.0,$,,,,8drBw0cVNp1KqsLzRmokYA,marination-station-seattle-2,2.0,98122,Central District
+107,hSwWhrlzCr2sAyad-x7UNg,U:Don Fresh Japanese Noodle Station,1640 12th Ave,Seattle,WA,98122,47.61588,-122.31655,,352,4.0,$$,,,,hSwWhrlzCr2sAyad-x7UNg,u-don-fresh-japanese-noodle-station-seattle-5,1.0,98122,Central District
+108,Sbj_J9u0CgiKOo371bD4Kg,Violet,1734 12th Ave,Seattle,WA,98122,47.61732,-122.31663999999999,,41,4.5,,,,,Sbj_J9u0CgiKOo371bD4Kg,violet-seattle-2,1.0,98122,Central District
+109,XPHTcSeBF4Ydkm_ex4O3sg,By Tae,1424 11th Ave,Seattle,WA,98122,47.61371,-122.31773000000001,,42,4.5,,,,,XPHTcSeBF4Ydkm_ex4O3sg,by-tae-seattle,1.0,98122,Central District
+110,wOkaZPQW2IRvG_eXYmdCYg,Morfire,1806 12th Ave,Seattle,WA,98122,47.617898328751295,-122.31685490353,,169,4.5,$$,,,,wOkaZPQW2IRvG_eXYmdCYg,morfire-seattle,1.0,98122,Central District
+111,uakk24V_xpD-INF6kxc4rg,Menya Musashi Tsukemen & Ramen,1510 Belmont Ave,Seattle,WA,98122,47.61443,-122.32423,,194,4.0,$$,,,,uakk24V_xpD-INF6kxc4rg,menya-musashi-tsukemen-and-ramen-seattle-2,2.0,98122,Central District
+112,dqI9SJFUcAB_IB0Rj7D3ag,Artusi,1535 14th Ave,Seattle,WA,98122,47.61509,-122.31442,,248,4.0,$$,,,,dqI9SJFUcAB_IB0Rj7D3ag,artusi-seattle,1.0,98122,Central District
+113,seXhmf0ry1gFsmLUDues5w,HoneyHole Sandwiches,703 E Pike St,Seattle,WA,98122,47.613929999999996,-122.3232,,1367,4.0,$$,,,,seXhmf0ry1gFsmLUDues5w,honeyhole-sandwiches-seattle-2,1.0,98122,Central District
+114,-0cEJtXVOQmKgmQtXI-neA,Bottlehouse,1416 34th Ave,Seattle,WA,98122,47.61347,-122.28898999999998,,314,4.5,$$,,,,-0cEJtXVOQmKgmQtXI-neA,bottlehouse-seattle,1.0,98122,Central District
+115,2xsKJEwYzjCWS7MK2qyYUg,Vendemmia,1126 34th Ave,Seattle,WA,98122,47.61229374917129,-122.289220162563,,160,4.5,$$$,,,,2xsKJEwYzjCWS7MK2qyYUg,vendemmia-seattle,1.0,98122,Central District
+116,Vuqc6s6gsYpGMVY34nTc_g,Red Cow,1423 34th Ave,Seattle,WA,98122,47.6135963,-122.2892844,,266,4.0,$$$,,,,Vuqc6s6gsYpGMVY34nTc_g,red-cow-seattle,1.0,98122,Central District
+117,NulXitxz9FaPSQReNehACQ,Bistro Turkuaz,1114 34th Ave,Seattle,WA,98122,47.6121807,-122.2893104,,119,4.0,$$,,,,NulXitxz9FaPSQReNehACQ,bistro-turkuaz-seattle,1.0,98122,Central District
+118,LAYH-S2juj5Z2q1_XVwDzQ,Hi Spot Cafe,1410 34th Ave,Seattle,WA,98122,47.61325,-122.2891,,382,4.0,$$,,,,LAYH-S2juj5Z2q1_XVwDzQ,hi-spot-cafe-seattle,2.0,98122,Central District
+119,BucoB9UtVg4hVWocoBZmRg,Madrona Arms,1138 34th Ave,Seattle,WA,98122,47.61275,-122.28913,,85,3.5,$$,,,,BucoB9UtVg4hVWocoBZmRg,madrona-arms-seattle,2.0,98122,Central District
+120,qj-J9ZtSHVsrwsXzatU7fA,Cherry Street Thai,2724 E Cherry St,Seattle,WA,98122,47.6081545,-122.2966784,,260,4.5,$$,,,,qj-J9ZtSHVsrwsXzatU7fA,cherry-street-thai-seattle,3.0,98122,Central District
+121,WZbZ8h_60QMQvO4vpIWpxQ,Fat's Fried Chicken & Waffles,2726 E Cherry St,Seattle,WA,98122,47.608125389777605,-122.29645985529801,,515,4.5,$$,,,,WZbZ8h_60QMQvO4vpIWpxQ,fats-fried-chicken-and-waffles-seattle,1.0,98122,Central District
+122,Am2BTcVJ7wQ3S_Uip7r0Jw,Lahi Seattle,2008 S Ferdinad St,Seattle,WA,98122,47.60633099938789,-122.293582633138,,2,5.0,,,,,Am2BTcVJ7wQ3S_Uip7r0Jw,lahi-seattle-seattle,,98122,Central District
+123,__548uStp_t9U7px1FmK1g,BluWater Bistro,102 Lakeside Ave,Seattle,WA,98122,47.601833959854496,-122.28490599187599,,381,3.0,$$,,,,__548uStp_t9U7px1FmK1g,bluwater-bistro-seattle-4,1.0,98122,Central District
+124,bNQsx_TJF_8Eo_Sx8dRFUA,Naam Thai Cuisine,1404 34th Ave,Seattle,WA,98122,47.61309,-122.28913,,147,3.5,$$,,,,bNQsx_TJF_8Eo_Sx8dRFUA,naam-thai-cuisine-seattle,1.0,98122,Central District
+125,mVe-ouCiPHElEXaAyfv1IA,Café Soleil,1400 34th Ave,Seattle,WA,98122,47.61311,-122.28908999999999,,74,4.0,$$,,,,mVe-ouCiPHElEXaAyfv1IA,cafÃ©-soleil-seattle-2,1.0,98122,Central District
+126,TM4BR3uGuXmBSoUvTSdSXg,Meet the Moon,120 Lakeside Ave,Seattle,WA,98122,47.602151299999996,-122.28493130000001,,458,4.0,$$,,,,TM4BR3uGuXmBSoUvTSdSXg,meet-the-moon-seattle,2.0,98122,Central District
+127,7yyDBhwcpSvlCSjsIclnmw,Feed Co. Burgers,1190 24th Ave,Seattle,WA,98122,47.6127807950165,-122.301238827379,,167,3.5,$$,,,,7yyDBhwcpSvlCSjsIclnmw,feed-co-burgers-seattle-3,2.0,98122,Central District
+128,OBvw1H90MmBVIHekfsHwEQ,The Twilight Exit,2514 E Cherry St,Seattle,WA,98122,47.60818,-122.2994,,214,4.0,$$,,,,OBvw1H90MmBVIHekfsHwEQ,the-twilight-exit-seattle-2,1.0,98122,Central District
+129,v9daiheQq39ebuIm18lyBg,Cheese Platters,2717 E Union St,Seattle,WA,98122,47.612772,-122.29683999999999,,19,5.0,,,,,v9daiheQq39ebuIm18lyBg,cheese-platters-seattle-2,1.0,98122,Central District
+130,-ZvCzmfQltMYgiGb_niOnQ,Cafe Selam,2715 E Cherry St,Seattle,WA,98122,47.60779,-122.29706999999999,,269,4.5,$$,,,,-ZvCzmfQltMYgiGb_niOnQ,cafe-selam-seattle,2.0,98122,Central District
+131,Yh8ws9L4Ss-3QOdYXOH5ZA,Soulful Dishes,1800 E Yesler Way,Seattle,WA,98122,47.6018100273963,-122.30875991284799,,17,4.5,,,,,Yh8ws9L4Ss-3QOdYXOH5ZA,soulful-dishes-seattle,1.0,98122,Central District
+132,Sl-Upreoh7Lba8jP2-ehwA,Ezell's Famous Chicken,501 23rd Ave,Seattle,WA,98122,47.606320000000004,-122.30301100000001,,762,3.5,$,,,,Sl-Upreoh7Lba8jP2-ehwA,ezells-famous-chicken-seattle-3,1.0,98122,Central District
+133,t_gtukc6r3yI5TzDHwdVZw,The Neighbor Lady,2308 E Union St,Seattle,WA,98122,47.61319365725701,-122.3020362854,,154,4.0,$$,,,,t_gtukc6r3yI5TzDHwdVZw,the-neighbor-lady-seattle,1.0,98122,Central District
+134,0BlqNgcFAM3zjfN1xHvllw,Zagol Ethiopian Restaurant,2722 E Cherry St,Seattle,WA,98122,47.6081117138039,-122.29673426558,,44,4.5,,,,,0BlqNgcFAM3zjfN1xHvllw,zagol-ethiopian-restaurant-seattle-3,1.0,98122,Central District
+135,GwEoCY_cTtiXZRQaL5yOhQ,Daniel's Broiler,200 Lake Washington Blvd,Seattle,WA,98122,47.602990000000005,-122.2843,,385,3.5,$$$,,,,GwEoCY_cTtiXZRQaL5yOhQ,daniels-broiler-seattle-8,1.0,98122,Central District
+136,ME0JbwrSqB7dXM6jvewa9w,Ras Dashen,2801 E Cherry St,Seattle,WA,98122,47.60776,-122.29567,,104,4.5,$$,,,,ME0JbwrSqB7dXM6jvewa9w,ras-dashen-seattle,1.0,98122,Central District
+137,6i8EM7X0mGJesKeHgHZ17g,Tacos Chukis,2203 E Union St,Seattle,WA,98122,47.612809999999996,-122.30341999999999,,74,4.0,$,,,,6i8EM7X0mGJesKeHgHZ17g,tacos-chukis-seattle-10,1.0,98122,Central District
+138,6i8EM7X0mGJesKeHgHZ17g,Tacos Chukis,2203 E Union St,Seattle,WA,98122,47.612809999999996,-122.30341999999999,,74,4.0,$,,,,6i8EM7X0mGJesKeHgHZ17g,tacos-chukis-seattle-10,2.0,98122,Central District
+139,XfDVIJzSqRf3cP3hY0EVFA,Cortona Cafe,2425 E Union St,Seattle,WA,98122,47.6127586364746,-122.300277709961,,103,4.5,$,,,,XfDVIJzSqRf3cP3hY0EVFA,cortona-cafe-seattle,1.0,98122,Central District
+140,aMHOtT5WI4inmIV8kavmIw,Adey Abeba Ethiopian Restaurant,2123 E Union St,Seattle,WA,98122,47.61271,-122.30391000000002,,143,4.5,$$,,,,aMHOtT5WI4inmIV8kavmIw,adey-abeba-ethiopian-restaurant-seattle,1.0,98122,Central District
+141,wxGWB6weHBCY3aE9f4x1cQ,Betsu Ten Jin,954 E Union St,Seattle,WA,98122,47.613295813232405,-122.319609959972,,286,4.0,$$,,,,wxGWB6weHBCY3aE9f4x1cQ,betsu-ten-jin-seattle,1.0,98122,Central District
+142,BXjaJd5j3BJl8K4EVdSvEA,Atulea,1715 12th Ave,Seattle,WA,98122,47.61691,-122.31718000000001,,114,4.5,,,,,BXjaJd5j3BJl8K4EVdSvEA,atulea-seattle,1.0,98122,Central District
+143,qizc9flTWmpxLFey-1BLUg,Cortina,621 Union St,Seattle,WA,98101,47.6104600592225,-122.332679320966,,146,4.0,$$$,,,,qizc9flTWmpxLFey-1BLUg,cortina-seattle-3,1.0,98101,Downtown Seattle
+144,1JAi_6_J7zs3RBKeKooP0g,Umma's Lunch Box,1301 5th Ave,Seattle,WA,98101,47.60884,-122.33425,,444,4.5,$,,,,1JAi_6_J7zs3RBKeKooP0g,ummas-lunch-box-seattle,2.0,98101,Downtown Seattle
+145,9GzjKeifGJ6KzWkaPftYHg,Loulay Kitchen & Bar,600 Union St,Seattle,WA,98101,47.61085,-122.33318,,625,4.0,$$$,,,,9GzjKeifGJ6KzWkaPftYHg,loulay-kitchen-and-bar-seattle,2.0,98101,Downtown Seattle
+146,VOPdG8llLPaga9iJxXcMuQ,The Pink Door,1919 Post Alley,Seattle,WA,98101,47.610279999999996,-122.3425,,4928,4.5,$$,,,,VOPdG8llLPaga9iJxXcMuQ,the-pink-door-seattle-4,2.0,98101,Downtown Seattle
+147,h1Q0Wkx5TUUZeVjJrXTwmQ,Chan Seattle,86 Pine St,Seattle,WA,98101,47.6098823547363,-122.34143829345699,,879,4.5,$$,,,,h1Q0Wkx5TUUZeVjJrXTwmQ,chan-seattle-seattle-2,1.0,98101,Downtown Seattle
+148,ZCtSkAulGzhWd1o0oWbYgQ,Din Tai Fung,600 Pine St,Seattle,WA,98101,47.61289,-122.33531,,1340,4.0,$$,,,,ZCtSkAulGzhWd1o0oWbYgQ,din-tai-fung-seattle-14,1.0,98101,Downtown Seattle
+149,6I28wDuMBR5WLMqfKxaoeg,Pike Place Chowder,1530 Post Aly,Seattle,WA,98101,47.609390000000005,-122.34111999999999,,7115,4.5,$$,,,,6I28wDuMBR5WLMqfKxaoeg,pike-place-chowder-seattle,2.0,98101,Downtown Seattle
+150,6I28wDuMBR5WLMqfKxaoeg,Pike Place Chowder,1530 Post Aly,Seattle,WA,98101,47.609390000000005,-122.34111999999999,,7115,4.5,$$,,,,6I28wDuMBR5WLMqfKxaoeg,pike-place-chowder-seattle,1.0,98101,Downtown Seattle
+151,xqH038QcquJEMm5LIZHd5w,Elliott's Oyster House,1201 Alaskan Way,Seattle,WA,98101,47.605469899999996,-122.34092,,3390,4.0,$$$,,,,xqH038QcquJEMm5LIZHd5w,elliotts-oyster-house-seattle-2,2.0,98101,Downtown Seattle
+152,x8BFKHu7ajvXLOA0_33bbg,Old Stove Brewing,1901 Western Ave,Seattle,WA,98101,47.609711,-122.34308700000001,,365,4.0,$$,,,,x8BFKHu7ajvXLOA0_33bbg,old-stove-brewing-seattle-3,2.0,98101,Downtown Seattle
+153,NxwrJPJLzTs0k0DQ-QCo1A,Piroshky Piroshky,1908 Pike Pl,Seattle,WA,98101,47.60991,-122.34231000000001,,6001,4.5,$,,,,NxwrJPJLzTs0k0DQ-QCo1A,piroshky-piroshky-seattle,2.0,98101,Downtown Seattle
+154,NxwrJPJLzTs0k0DQ-QCo1A,Piroshky Piroshky,1908 Pike Pl,Seattle,WA,98101,47.60991,-122.34231000000001,,6001,4.5,$,,,,NxwrJPJLzTs0k0DQ-QCo1A,piroshky-piroshky-seattle,1.0,98101,Downtown Seattle
+155,dyN-UDqTKMk9lnv99DBbhw,La Cocina Oaxaquena,1216 Pine St,Seattle,WA,98101,47.615474700927706,-122.328178405762,,462,4.0,$$,,,,dyN-UDqTKMk9lnv99DBbhw,la-cocina-oaxaquena-seattle,1.0,98101,Downtown Seattle
+156,kjoVE8SlcwKnDtfxtfjlZA,Qin Xi'an Noodles,1203 Pine St,Seattle,WA,98101,47.61488,-122.32838999999998,,239,4.0,$$,,,,kjoVE8SlcwKnDtfxtfjlZA,qin-xian-noodles-seattle-3,3.0,98101,Downtown Seattle
+157,3taoNftGiPscioUZRK41gg,Sitka & Spruce,1531 Melrose Ave,Seattle,WA,98101,47.6147656718268,-122.328212837817,,730,4.0,$$,,,,3taoNftGiPscioUZRK41gg,sitka-and-spruce-seattle,2.0,98101,Downtown Seattle
+158,7za-bNmBBMtXKkY1-RRuIQ,Ristorante Machiavelli,1215 Pine St,Seattle,WA,98101,47.615,-122.32808999999999,,836,4.0,$$,,,,7za-bNmBBMtXKkY1-RRuIQ,ristorante-machiavelli-seattle-2,1.0,98101,Downtown Seattle
+159,ABZ1gV7OVUW6KMYFTYHm9A,Rumba,1112 Pike St,Seattle,WA,98101,47.613819899999996,-122.32858,,433,4.0,$$,,,,ABZ1gV7OVUW6KMYFTYHm9A,rumba-seattle,1.0,98101,Downtown Seattle
+160,ps9ZlLoLYTfK87IjW9REfg,Radiator Whiskey,94 Pike St,Seattle,WA,98101,47.60888,-122.34036,,1206,4.5,$$,,,,ps9ZlLoLYTfK87IjW9REfg,radiator-whiskey-seattle,1.0,98101,Downtown Seattle
+161,09FLRYnePKcUwGDDPIOAkg,Biscuit Bitch,1909 1st Ave,Seattle,WA,98101,47.61034,-122.34167,,3652,4.0,$,,,,09FLRYnePKcUwGDDPIOAkg,biscuit-bitch-seattle,1.0,98101,Downtown Seattle
+162,sjcNiTr1YjpbFOMKkakH4Q,Blueacre Seafood,1700 7th Ave,Seattle,WA,98101,47.613779250456,-122.33514951541001,,1186,4.0,$$$,,,,sjcNiTr1YjpbFOMKkakH4Q,blueacre-seafood-seattle,2.0,98101,Downtown Seattle
+163,set4BJp5WvZYeRaRPR_Ikg,Breezy Town Pizza,4864 Beacon Ave S,Seattle,WA,98101,47.559019899999996,-122.30395,,100,4.5,$$,,,,set4BJp5WvZYeRaRPR_Ikg,breezy-town-pizza-seattle-3,3.0,98101,Downtown Seattle
+164,GrFxdNfPvdlVrueRY7XERg,List,2226 1st Ave,Seattle,WA,98121,47.61334,-122.34586999999999,,1822,4.5,$$,,,,GrFxdNfPvdlVrueRY7XERg,list-seattle,3.0,98121,Downtown Seattle
+165,FJcS8oR8YIdICZ0F-Oh1PQ,Limoncello Belltown,2326 1st Ave,Seattle,WA,98121,47.6136482505188,-122.34706308781799,,13,5.0,,,,,FJcS8oR8YIdICZ0F-Oh1PQ,limoncello-belltown-seattle,1.0,98121,Downtown Seattle
+166,BKdSIJZ0YBaWM5YqOdNNkw,Karaage Setsuna,2429 2nd Ave,Seattle,WA,98121,47.6150914,-122.3479382,,278,4.5,$$,,,,BKdSIJZ0YBaWM5YqOdNNkw,karaage-setsuna-seattle,2.0,98121,Downtown Seattle
+167,2aILYZOWPxdlfqydJaYz_w,Tavolàta,2323 2nd Ave,Seattle,WA,98121,47.614264079268295,-122.34666824340799,,983,4.0,$$$,,,,2aILYZOWPxdlfqydJaYz_w,tavol√†ta-seattle-6,1.0,98121,Downtown Seattle
+168,dVqRpLvcf2nlNZSF6zCzxw,Jerk Shack,2510 1st Ave,Seattle,WA,98121,47.61507,-122.34901,,276,4.0,$$,,,,dVqRpLvcf2nlNZSF6zCzxw,jerk-shack-seattle,,98121,Downtown Seattle
+169,YSQiqH7RIWORk_Qp-A4SOg,Shiro's,2401 2nd Ave,Seattle,WA,98121,47.6147782162181,-122.347327076057,,2103,4.5,$$$,,,,YSQiqH7RIWORk_Qp-A4SOg,shiros-seattle,1.0,98121,Downtown Seattle
+170,5hvXRsi_oep4ArIqKbeM_w,Petra Bistro,2501 4th Ave,Seattle,WA,98121,47.616690000000006,-122.34653,,1010,4.0,$$,,,,5hvXRsi_oep4ArIqKbeM_w,petra-bistro-seattle,1.0,98121,Downtown Seattle
+171,s8Az5P2gKVT8eVYyFVmYKg,Imperial Lounge,2400 1st Ave,Seattle,WA,98121,47.614414007807206,-122.34800888895701,,37,4.5,,,,,s8Az5P2gKVT8eVYyFVmYKg,imperial-lounge-seattle-2,1.0,98121,Downtown Seattle
+172,YSwmn9G7Zo69JcxMde3Ipw,Doner Box,2421 2nd Ave,Seattle,WA,98121,47.61493,-122.34756000000002,,18,5.0,$,,,,YSwmn9G7Zo69JcxMde3Ipw,doner-box-seattle,2.0,98121,Downtown Seattle
+173,cFTq5MmBDPb_VEqQXPw2Dw,Wasabi Sushi & Izakaya,2311 2nd Ave,Seattle,WA,98121,47.614196,-122.346226,,1546,4.0,$$,,,,cFTq5MmBDPb_VEqQXPw2Dw,wasabi-sushi-and-izakaya-seattle,1.0,98121,Downtown Seattle
+174,BLVe8EsrRKphA8Ivxuavmw,Black Bottle,2600 1st Ave,Seattle,WA,98121,47.615429999999996,-122.34966999999999,,1101,4.0,$$,,,,BLVe8EsrRKphA8Ivxuavmw,black-bottle-seattle-2,2.0,98121,Downtown Seattle
+175,EWrDx-M8HJpR0wVJHrflNg,Umi Sake House,2230 1st Ave,Seattle,WA,98121,47.61339,-122.34597,,3388,4.0,$$,,,,EWrDx-M8HJpR0wVJHrflNg,umi-sake-house-seattle,2.0,98121,Downtown Seattle
+176,6AY7UJnznddGbrccPDvuNw,Some Random Bar,2604 1st Ave,Seattle,WA,98121,47.615501002278606,-122.349802245912,,914,4.5,$$,,,,6AY7UJnznddGbrccPDvuNw,some-random-bar-seattle,2.0,98121,Downtown Seattle
+177,b4Iw-XvcstHPYaSIAsL0fg,El Gaucho,2505 1st Ave,Seattle,WA,98121,47.61473307389279,-122.349196290354,,1161,4.0,$$$$,,,,b4Iw-XvcstHPYaSIAsL0fg,el-gaucho-seattle,2.0,98121,Downtown Seattle
+178,b4Iw-XvcstHPYaSIAsL0fg,El Gaucho,2505 1st Ave,Seattle,WA,98121,47.61473307389279,-122.349196290354,,1161,4.0,$$$$,,,,b4Iw-XvcstHPYaSIAsL0fg,el-gaucho-seattle,1.0,98121,Downtown Seattle
+179,YhWzCrNLz2bb4LDi7stPjQ,Six Seven Restaurant,2411 Alaskan Way,Seattle,WA,98121,47.612304033102504,-122.35230088233999,,1014,4.0,$$$,,,,YhWzCrNLz2bb4LDi7stPjQ,six-seven-restaurant-seattle-3,,98121,Downtown Seattle
+180,SG5DrR107I8AYBDqNrfimw,No Anchor,2505 2nd Ave,Seattle,WA,98121,47.615296,-122.34843500000001,,211,4.0,$$,,,,SG5DrR107I8AYBDqNrfimw,no-anchor-seattle-3,1.0,98121,Downtown Seattle
+181,IeLDRhva7CJ3EXuYw5xgVg,Biscuit Bitch,2303 3rd Ave,Seattle,WA,98121,47.614767,-122.34527800000001,,1313,4.5,$,,,,IeLDRhva7CJ3EXuYw5xgVg,biscuit-bitch-seattle-9,1.0,98121,Downtown Seattle
+182,waY0VFsZX6c45i8hp8fNsw,Local 360,2234 1st Ave,Seattle,WA,98121,47.613448,-122.346202,,3125,4.0,$$,,,,waY0VFsZX6c45i8hp8fNsw,local-360-seattle-2,1.0,98121,Downtown Seattle
+183,FI5Ed1U9ML38Ey3iq1UQaQ,G.H. Pasta Co.,2305 6th Ave,Seattle,WA,98121,47.61674,-122.34273,,151,4.5,$,,,,FI5Ed1U9ML38Ey3iq1UQaQ,g-h-pasta-co-seattle,1.0,98121,Downtown Seattle
+184,2wceIVHS2iTwPDs4Brnlfg,Meekong Bar,2525 4th Ave,Seattle,WA,98121,47.6167700829394,-122.34686907380801,,418,4.5,$$,,,,2wceIVHS2iTwPDs4Brnlfg,meekong-bar-seattle-4,2.0,98121,Downtown Seattle
+185,NaGkRnNbLcJdI8cF8JE3hw,Tilikum Place Cafe,407 Cedar St,Seattle,WA,98121,47.617982,-122.347691,,1966,4.0,$$,,,,NaGkRnNbLcJdI8cF8JE3hw,tilikum-place-cafe-seattle-3,1.0,98121,Downtown Seattle
+186,1rkgyfwzXG7qSdVZdfRt7g,Rocco's,2228 2nd Ave,Seattle,WA,98121,47.6140031078304,-122.345133,,1329,4.0,$$,,,,1rkgyfwzXG7qSdVZdfRt7g,roccos-seattle,1.0,98121,Downtown Seattle
+187,Aj1oSIHJwbteXYfYquzUOA,Bangrak Market,2319 2nd Ave,Seattle,WA,98121,47.614263,-122.34638700000001,,237,4.0,$$,,,,Aj1oSIHJwbteXYfYquzUOA,bangrak-market-seattle,1.0,98121,Downtown Seattle
+188,Xb2eROYyzpRlhNUu4LHSYg,Anthony's Pier 66,2201 Alaskan Way,Seattle,WA,98121,47.6111081,-122.34853500000001,,561,3.5,$$$,,,,Xb2eROYyzpRlhNUu4LHSYg,anthonys-pier-66-seattle-3,1.0,98121,Downtown Seattle
+189,nhRCkR9FY1OTpw-bv1u5Aw,The Grill From Ipanema,2313 1st Ave,Seattle,WA,98121,47.61358,-122.34719,,932,4.0,$$$,,,,nhRCkR9FY1OTpw-bv1u5Aw,the-grill-from-ipanema-seattle,1.0,98121,Downtown Seattle
+190,zEZi-VmBSZaDq09ab2bT9g,AQUA by El Gaucho,2801 Alaskan Way,Seattle,WA,98121,47.614784817189,-122.3552942276,,914,4.0,$$$$,,,,zEZi-VmBSZaDq09ab2bT9g,aqua-by-el-gaucho-seattle,2.0,98121,Downtown Seattle
+191,dAeObODKI5e8de3QpZVI3g,La Vita E Bella,2411 2nd Ave,Seattle,WA,98121,47.6149,-122.3475,,530,4.0,$$,,,,dAeObODKI5e8de3QpZVI3g,la-vita-e-bella-seattle-7,2.0,98121,Downtown Seattle
+192,-FOAQv22SXtSBs7nptI3UA,Serious Pie,316 Virginia St,Seattle,WA,98121,47.61296,-122.34047,,4073,4.0,$$,,,,-FOAQv22SXtSBs7nptI3UA,serious-pie-seattle,1.0,98121,Downtown Seattle
+193,ziQu67Jy0RFLb8fxYVUZnw,Ohana Belltown,2207 First Ave,Seattle,WA,98121,47.61265,-122.34585,,757,3.5,$$,,,,ziQu67Jy0RFLb8fxYVUZnw,ohana-belltown-seattle,2.0,98121,Downtown Seattle
+194,FW0AJpVxlvOwYE-87v3Ocg,Korean Bamboo,2236 3rd Ave,Seattle,WA,98121,47.6147414,-122.34454699999999,,329,4.0,$$,,,,FW0AJpVxlvOwYE-87v3Ocg,korean-bamboo-seattle-3,2.0,98121,Downtown Seattle
+195,rVj2n1kfQ6BsR-x0KABZAg,Taqueria Cantina,2630 1st Ave,Seattle,WA,98121,47.615885999999996,-122.35016599999999,,372,4.0,$$,,,,rVj2n1kfQ6BsR-x0KABZAg,taqueria-cantina-seattle,1.0,98121,Downtown Seattle
+196,yooBjuMxEjRFCwN7Wz5-Yg,Buenos Aires Grill,2328 1st Ave,Seattle,WA,98121,47.61403,-122.34731000000001,,208,4.0,$$$,,,,yooBjuMxEjRFCwN7Wz5-Yg,buenos-aires-grill-seattle-2,2.0,98121,Downtown Seattle
+197,FMJDwdoPRV64185m-OU7Pg,Wakefield Bar,2318 2nd Ave,Seattle,WA,98121,47.614614,-122.34631399999999,,273,4.5,$$,,,,FMJDwdoPRV64185m-OU7Pg,wakefield-bar-seattle,2.0,98121,Downtown Seattle
+198,KhI3zQmALGsZ6wH9c9v96Q,La Fontana Siciliana,120 Blanchard St,Seattle,WA,98121,47.613146,-122.3449,,376,4.0,$$,,,,KhI3zQmALGsZ6wH9c9v96Q,la-fontana-siciliana-seattle,1.0,98121,Downtown Seattle
+199,YlS7EM5icSaiqPUv1sRIYQ,FOB Poke Bar,220 Blanchard St,Seattle,WA,98121,47.613800518709496,-122.343868017197,,787,4.5,$$,,,,YlS7EM5icSaiqPUv1sRIYQ,fob-poke-bar-seattle-2,1.0,98121,Downtown Seattle
+200,YlS7EM5icSaiqPUv1sRIYQ,FOB Poke Bar,220 Blanchard St,Seattle,WA,98121,47.613800518709496,-122.343868017197,,787,4.5,$$,,,,YlS7EM5icSaiqPUv1sRIYQ,fob-poke-bar-seattle-2,2.0,98121,Downtown Seattle
+201,UzaMrsDMM7xmxtWLPTrmKw,Shaker and Spear,2000 2nd Ave,Seattle,WA,98121,47.61203,-122.34165,,710,4.5,$$,,,,UzaMrsDMM7xmxtWLPTrmKw,shaker-and-spear-seattle-2,,98121,Downtown Seattle
+202,iHsHo5skCR0e_ziH0cr0rQ,Belltown Pizza,2422 1st Ave,Seattle,WA,98121,47.6146,-122.34826000000001,,381,3.5,$$,,,,iHsHo5skCR0e_ziH0cr0rQ,belltown-pizza-seattle,1.0,98121,Downtown Seattle
+203,E5rQ6F0Te5X6wahbmZYG-A,wa’z,411 Cedar St,Seattle,WA,98121,47.61795,-122.34741000000001,,76,4.5,$$$$,,,,E5rQ6F0Te5X6wahbmZYG-A,wa-z-seattle,1.0,98121,Downtown Seattle
+204,POdrpnqqaWxjQ0ghGgwNUQ,Green Leaf Vietnamese Restaurant,2800 1st Ave,Seattle,WA,98121,47.616659999999996,-122.35166000000001,,584,4.0,$$,,,,POdrpnqqaWxjQ0ghGgwNUQ,green-leaf-vietnamese-restaurant-seattle-3,2.0,98121,Downtown Seattle
+205,POdrpnqqaWxjQ0ghGgwNUQ,Green Leaf Vietnamese Restaurant,2800 1st Ave,Seattle,WA,98121,47.616659999999996,-122.35166000000001,,584,4.0,$$,,,,POdrpnqqaWxjQ0ghGgwNUQ,green-leaf-vietnamese-restaurant-seattle-3,3.0,98121,Downtown Seattle
+206,Gm-qCQeUd3Tkj3gojCzPbA,Al Basha,2302 1st Ave,Seattle,WA,98121,47.613640000000004,-122.3466,,195,4.0,$$,,,,Gm-qCQeUd3Tkj3gojCzPbA,al-basha-seattle,1.0,98121,Downtown Seattle
+207,jDrlINIeBl0rQol8ZQrtEQ,Zheng Cafe,230 6th Ave N,Seattle,WA,98109,47.620709999999995,-122.34476000000001,,158,4.0,$,,,,jDrlINIeBl0rQol8ZQrtEQ,zheng-cafe-seattle-3,1.0,98109,South Lake Union
+208,r2qcG59sAqqptnwL4aJGhg,Toulouse Petit Kitchen & Lounge,601 Queen Anne Ave N,Seattle,WA,98109,47.624851,-122.357127,,3885,4.0,$$,,,,r2qcG59sAqqptnwL4aJGhg,toulouse-petit-kitchen-and-lounge-seattle,2.0,98109,South Lake Union
+209,f9cpxpxn6xN_c3ZnXdeqUA,Paju,11 Mercer St,Seattle,WA,98109,47.624406,-122.356151,,85,4.5,$$,,,,f9cpxpxn6xN_c3ZnXdeqUA,paju-seattle-2,1.0,98109,South Lake Union
+210,OwOSuAvxoZpgS3KGkWr51w,How To Cook a Wolf,2208 Queen Anne Ave N,Seattle,WA,98109,47.63854026654779,-122.35688766676901,,894,4.0,$$$,,,,OwOSuAvxoZpgS3KGkWr51w,how-to-cook-a-wolf-seattle,2.0,98109,South Lake Union
+211,2UQTDh1UCmMVR7-cLCxhjQ,Eden Hill Provisions,1935 Queen Anne Ave N,Seattle,WA,98109,47.63685,-122.3573,,22,4.0,,,,,2UQTDh1UCmMVR7-cLCxhjQ,eden-hill-provisions-seattle,1.0,98109,South Lake Union
+212,5VVGeQdGO3wVK4Gmd-9k-Q,Eden Hill Restaurant,2209 Queen Anne Ave N,Seattle,WA,98109,47.63876,-122.35715,,212,4.5,$$$$,,,,5VVGeQdGO3wVK4Gmd-9k-Q,eden-hill-restaurant-seattle-3,2.0,98109,South Lake Union
+213,Qf6p4ryrO7EU30dWTa2-Dg,Five Hooks Fish Grill,2232 Queen Anne Ave N,Seattle,WA,98109,47.639418,-122.356603,,367,4.0,$$,,,,Qf6p4ryrO7EU30dWTa2-Dg,five-hooks-fish-grill-seattle,1.0,98109,South Lake Union
+214,FdXeE401B1cVGnjLYu85zg,El Mezcalito,2123 Queen Anne Ave N,Seattle,WA,98109,47.63777,-122.35717,,371,4.0,$$,,,,FdXeE401B1cVGnjLYu85zg,el-mezcalito-seattle,2.0,98109,South Lake Union
+215,sOupzjTxg6Crwj9DTxINmA,Grappa,2 Boston St,Seattle,WA,98109,47.63857,-122.35676000000001,,207,4.0,$$,,,,sOupzjTxg6Crwj9DTxINmA,grappa-seattle,1.0,98109,South Lake Union
+216,6RIduFsu4oCRRe0cwZl0Nw,Betty,1507 Queen Anne Ave N,Seattle,WA,98109,47.632670000000005,-122.35727,,368,4.0,$$,,,,6RIduFsu4oCRRe0cwZl0Nw,betty-seattle,2.0,98109,South Lake Union
+217,oL5Y0hNJojyTdkw3tMapeg,5 Spot,1502 Queen Anne Ave N,Seattle,WA,98109,47.632529999999996,-122.35672,,1126,4.0,$$,,,,oL5Y0hNJojyTdkw3tMapeg,5-spot-seattle,2.0,98109,South Lake Union
+218,FJeVMdPidUM5vKvo3N5sjA,Evviva Woodfired Pizza,2231 Queen Anne Ave N,Seattle,WA,98109,47.6393,-122.35718999999999,,40,4.0,$$,,,,FJeVMdPidUM5vKvo3N5sjA,evviva-woodfired-pizza-seattle-2,1.0,98109,South Lake Union
+219,ej6BfKC2K5dQERB3r_PzZQ,Hilltop Ale House,2129 Queen Anne Ave N,Seattle,WA,98109,47.63797,-122.35723,,222,4.0,$$,,,,ej6BfKC2K5dQERB3r_PzZQ,hilltop-ale-house-seattle,1.0,98109,South Lake Union
+220,Xai1cZgj2Qm2owxt4zXKOA,Bounty Kitchen,7 Boston St,Seattle,WA,98109,47.6381912,-122.35652160000001,,329,4.5,$$,,,,Xai1cZgj2Qm2owxt4zXKOA,bounty-kitchen-seattle-2,2.0,98109,South Lake Union
+221,VGQHzuUViWkO-J3KRDXEhQ,Sushi Samurai,1817 Queen Anne Ave N,Seattle,WA,98109,47.6353501,-122.35735079999999,,203,3.5,$$,,,,VGQHzuUViWkO-J3KRDXEhQ,sushi-samurai-seattle,1.0,98109,South Lake Union
+222,FrHhYevaOhs40xpuOpQiHg,Canlis,2576 Aurora Ave N,Seattle,WA,98109,47.6430119,-122.34676759999999,,1434,4.0,$$$$,,,,FrHhYevaOhs40xpuOpQiHg,canlis-seattle,1.0,98109,South Lake Union
+223,LmoqmQ54FEEsqfffzmrl8w,HeartBeet Organic Superfoods Cafe,1635 Queen Anne Ave N,Seattle,WA,98109,47.63459,-122.357367,,502,4.0,$$,,,,LmoqmQ54FEEsqfffzmrl8w,heartbeet-organic-superfoods-cafe-seattle,1.0,98109,South Lake Union
+224,XSuVforhA4rhRKObKnjpgQ,The Flame,2115 Queen Anne Ave N,Seattle,WA,98109,47.637679999999996,-122.35717,,2,4.0,,,,,XSuVforhA4rhRKObKnjpgQ,the-flame-seattle,,98109,South Lake Union
+225,G4j9EqGHRg2TdQVD3wE8EA,El Diablo Coffee,1825 Queen Anne Ave N,Seattle,WA,98109,47.63555,-122.35731000000001,,415,4.0,$,,,,G4j9EqGHRg2TdQVD3wE8EA,el-diablo-coffee-seattle-2,1.0,98109,South Lake Union
+226,A7F7W6dQNdr--Nuel7Ml_Q,Ikiiki,12 Boston St,Seattle,WA,98109,47.63855,-122.35633999999999,,76,4.0,$$,,,,A7F7W6dQNdr--Nuel7Ml_Q,ikiiki-seattle,2.0,98109,South Lake Union
+227,zIczxp6kS-2kyV937xBnAA,Stone Korean Restaurant,900 Dexter Ave N,Seattle,WA,98109,47.62729,-122.34208999999998,,117,4.0,$$,,,,zIczxp6kS-2kyV937xBnAA,stone-korean-restaurant-seattle-2,2.0,98109,South Lake Union
+228,zIczxp6kS-2kyV937xBnAA,Stone Korean Restaurant,900 Dexter Ave N,Seattle,WA,98109,47.62729,-122.34208999999998,,117,4.0,$$,,,,zIczxp6kS-2kyV937xBnAA,stone-korean-restaurant-seattle-2,1.0,98109,South Lake Union
+229,zVFibVYVzGS2-ZLv6AvaSA,Byen Bakeri,15 Nickerson St,Seattle,WA,98109,47.649288,-122.356908,,210,4.5,$$,,,,zVFibVYVzGS2-ZLv6AvaSA,byen-bakeri-seattle,1.0,98109,South Lake Union
+230,n6hB6mIctJQDn-DAH7MpGg,Duke's Seafood & Chowder,1111 Fairview Ave N,Seattle,WA,98109,47.629876,-122.330423,,846,4.0,$$,,,,n6hB6mIctJQDn-DAH7MpGg,dukes-seafood-and-chowder-seattle-3,1.0,98109,South Lake Union
+231,OSl7TKl7lmMipCavuO-yMQ,Teinei,1256 Republican St,Seattle,WA,98109,47.623259999999995,-122.33113,,181,4.0,$$,,,,OSl7TKl7lmMipCavuO-yMQ,teinei-seattle,2.0,98109,South Lake Union
+232,CycF-FKea-x1jGukd4khyg,The White Swan Public House,1001 Fairview Ave N,Seattle,WA,98109,47.6288185119629,-122.331748962402,,213,4.0,$$,,,,CycF-FKea-x1jGukd4khyg,the-white-swan-public-house-seattle-2,1.0,98109,South Lake Union
+233,orqdI_NDAdHuLNAMLhHrIg,Re Public,429 Westlake Ave N,Seattle,WA,98109,47.622890000000005,-122.33876000000001,,540,4.0,$$,,,,orqdI_NDAdHuLNAMLhHrIg,re-public-seattle-2,2.0,98109,South Lake Union
+234,Wm0soYlpuNJ8muQgckmrng,Cask & Trotter,711 Westlake Ave N,Seattle,WA,98109,47.626012,-122.3390033,,545,4.0,$$,,,,Wm0soYlpuNJ8muQgckmrng,cask-and-trotter-seattle-2,2.0,98109,South Lake Union
+235,pzjQKP3PEkclhSD-mFn7jA,Tacos Chukis,219 Broadway E,Seattle,WA,98102,47.620570445175,-122.32126235961901,,1628,4.5,$,,,,pzjQKP3PEkclhSD-mFn7jA,tacos-chukis-seattle,1.0,98102,Capitol Hill
+236,pzjQKP3PEkclhSD-mFn7jA,Tacos Chukis,219 Broadway E,Seattle,WA,98102,47.620570445175,-122.32126235961901,,1628,4.5,$,,,,pzjQKP3PEkclhSD-mFn7jA,tacos-chukis-seattle,2.0,98102,Capitol Hill
+237,aa7o97Naa4gdDL70oUmNiQ,Carrello,622 Broadway E,Seattle,WA,98102,47.624959999999994,-122.32053,,21,4.0,,,,,aa7o97Naa4gdDL70oUmNiQ,carrello-seattle,,98102,Capitol Hill
+238,tg9Fsdky2V-Bg3xiSIT4sg,Taneda Sushi in Kaiseki,219 Broadway E,Seattle,WA,98102,47.62063,-122.32133999999999,,112,5.0,$$$$,,,,tg9Fsdky2V-Bg3xiSIT4sg,taneda-sushi-in-kaiseki-seattle-2,1.0,98102,Capitol Hill
+239,CDbu6A1fVHm8sZbDbD-x7A,Altura,617 Broadway E,Seattle,WA,98102,47.62488,-122.32115,,540,4.5,$$$$,,,,CDbu6A1fVHm8sZbDbD-x7A,altura-seattle,2.0,98102,Capitol Hill
+240,SvZEZbtqpNWjUBurscVfmQ,Due' Cucina Italiana,412 Broadway E,Seattle,WA,98102,47.62245,-122.32064,,429,4.5,$$,,,,SvZEZbtqpNWjUBurscVfmQ,due-cucina-italiana-seattle,1.0,98102,Capitol Hill
+241,wxXMzqN0nXOMw9HYv2rhOQ,Cook Weaver,806 E Roy St,Seattle,WA,98102,47.62522,-122.32172,,188,4.5,$$,,,,wxXMzqN0nXOMw9HYv2rhOQ,cook-weaver-seattle-2,1.0,98102,Capitol Hill
+242,qLzed7jKJcJgfbhqaofLzQ,Lionhead,618 Broadway E,Seattle,WA,98102,47.6248035549413,-122.320777901654,,198,4.0,$$,,,,qLzed7jKJcJgfbhqaofLzQ,lionhead-seattle-2,,98102,Capitol Hill
+243,edzGkH9Fd0chJbiTCDqq1A,Carmelo's Tacos,110 Summit Ave E,Seattle,WA,98102,47.6188364116856,-122.325064701916,,166,4.5,$,,,,edzGkH9Fd0chJbiTCDqq1A,carmelos-tacos-seattle-2,1.0,98102,Capitol Hill
+244,B9QnfF7SF5aYoph_ijDObQ,D' La Santa,2359 10th Ave E,Seattle,WA,98102,47.64123,-122.3202,,240,4.5,$$,,,,B9QnfF7SF5aYoph_ijDObQ,d-la-santa-seattle,1.0,98102,Capitol Hill
+245,43CI7FDQVks2blFrhXWesg,Herb & Bitter Public House,516 Broadway E,Seattle,WA,98102,47.62360557110289,-122.320748173641,,313,4.0,$$,,,,43CI7FDQVks2blFrhXWesg,herb-and-bitter-public-house-seattle,1.0,98102,Capitol Hill
+246,aC1dn3qBFxgk-OYC3hFMgQ,Noodle Time Noodle Eatery,1554 E Olive Way,Seattle,WA,98102,47.618676,-122.32566499999999,,698,4.0,$$,,,,aC1dn3qBFxgk-OYC3hFMgQ,noodle-time-noodle-eatery-seattle,1.0,98102,Capitol Hill
+247,aNkKTZyTwgf2KuPxtupPpQ,Bait Shop,606 Broadway E,Seattle,WA,98102,47.624656,-122.32061599999999,,206,4.5,$$,,,,aNkKTZyTwgf2KuPxtupPpQ,bait-shop-seattle,2.0,98102,Capitol Hill
+248,eYkI5ZNx_PJ7qrJMwwW4OQ,Corvus & Company,601 Broadway E,Seattle,WA,98102,47.624519899999996,-122.3213,,116,4.0,$$,,,,eYkI5ZNx_PJ7qrJMwwW4OQ,corvus-and-company-seattle,1.0,98102,Capitol Hill
+249,n6BLr6spgjVWqzUwmVx0bg,Johnny Mo's Pizzeria,3272 Fuhrman Ave E,Seattle,WA,98102,47.65142,-122.32083,,10,4.5,,,,,n6BLr6spgjVWqzUwmVx0bg,johnny-mos-pizzeria-seattle,1.0,98102,Capitol Hill
+250,RzOn1WEsHZ-vY5ZxyfOAkw,Pomodoro,2366 Eastlake Ave E,Seattle,WA,98102,47.641698999999996,-122.325672,,437,4.5,$$,,,,RzOn1WEsHZ-vY5ZxyfOAkw,pomodoro-seattle,1.0,98102,Capitol Hill
+251,GbOeFx7ql7EPSlKv1tModQ,Le Messe,1903 Yale Pl E,Seattle,WA,98102,47.6358713334295,-122.32568406295401,,97,4.0,$$,,,,GbOeFx7ql7EPSlKv1tModQ,le-messe-seattle-2,2.0,98102,Capitol Hill
+252,U0pca9y7PFXIUiUeKn1sWw,Son of A Butcher,2236 Eastlake Ave E,Seattle,WA,98102,47.63937,-122.32551000000001,,68,3.5,$$,,,,U0pca9y7PFXIUiUeKn1sWw,son-of-a-butcher-seattle-3,1.0,98102,Capitol Hill
+253,R7RFX9IlMgNftKT0f9uudQ,Serafina,2043 Eastlake Ave E,Seattle,WA,98102,47.63808,-122.32611000000001,,681,4.0,$$$,,,,R7RFX9IlMgNftKT0f9uudQ,serafina-seattle,2.0,98102,Capitol Hill
+254,qlMxvpFQHvR--8MFvx0T8g,Cicchetti,121 E Boston St,Seattle,WA,98102,47.6381371,-122.326172,,320,4.0,$$,,,,qlMxvpFQHvR--8MFvx0T8g,cicchetti-seattle,1.0,98102,Capitol Hill
+255,oOVlLL4bZ-wAeoi_k0OUmg,Monsoon Seattle,615 19th Ave E,Seattle,WA,98112,47.62493,-122.3076,,605,4.0,$$,,,,oOVlLL4bZ-wAeoi_k0OUmg,monsoon-seattle-seattle-4,1.0,98112,Capitol Hill
+256,loH8twRxYrUvjRPRMCJj_w,Spice Waala,340 15th Ave E,Seattle,WA,98112,47.62165,-122.31239,,99,4.5,$,,,,loH8twRxYrUvjRPRMCJj_w,spice-waala-seattle,1.0,98112,Capitol Hill
+257,QeeiVw_OjxWmTiSH0A6qgA,Rione XIII,401 15th Ave E,Seattle,WA,98112,47.6220785,-122.3128054,,329,4.0,$$,,,,QeeiVw_OjxWmTiSH0A6qgA,rione-xiii-seattle,2.0,98112,Capitol Hill
+258,BY5xsa3f1YAOs6eB1FCI1g,Bamboo,345 15th Ave E,Seattle,WA,98112,47.621790000000004,-122.31296999999999,,238,4.0,$,,,,BY5xsa3f1YAOs6eB1FCI1g,bamboo-seattle,2.0,98112,Capitol Hill
+259,bXWRWr_tNuPm6DiBJsM5Wg,Luc,2800 E Madison St,Seattle,WA,98112,47.623740000000005,-122.29626999999999,,333,4.0,$$,,,,bXWRWr_tNuPm6DiBJsM5Wg,luc-seattle,1.0,98112,Capitol Hill
+260,5k-ZrlhxjlxMn5A6HRiMGg,Bar Cantinetta,2811 E Madison St,Seattle,WA,98112,47.623614,-122.29551000000001,,108,4.5,$$,,,,5k-ZrlhxjlxMn5A6HRiMGg,bar-cantinetta-seattle,3.0,98112,Capitol Hill
+261,-pa-22jT0ssGBiBaGQWiqA,The Harvest Vine,2701 E Madison St,Seattle,WA,98112,47.62258,-122.29725,,605,4.5,$$$,,,,-pa-22jT0ssGBiBaGQWiqA,the-harvest-vine-seattle,2.0,98112,Capitol Hill
+262,-ribFN-n72wNn4bpfzuvgw,Voila! Bistrot,2805 E Madison St,Seattle,WA,98112,47.62352,-122.29587,,210,4.0,$$,,,,-ribFN-n72wNn4bpfzuvgw,voila-bistrot-seattle,2.0,98112,Capitol Hill
+263,aavc3fYB9sq9ZdEuLJtdJw,Nick’s On Madison,3131 E Madison St,Seattle,WA,98112,47.626490000000004,-122.29128,,16,5.0,,,,,aavc3fYB9sq9ZdEuLJtdJw,nick-s-on-madison-seattle,1.0,98112,Capitol Hill
+264,Ss_66zV-zhK_57_6MgV93w,Aglio e Olio,2743 E Madison St,Seattle,WA,98112,47.62323,-122.29593,,218,4.5,$$,,,,Ss_66zV-zhK_57_6MgV93w,aglio-e-olio-seattle,1.0,98112,Capitol Hill
+265,9nJlVsm9GEz6DFhK5ckaYA,Cafe Flora,2901 E Madison St,Seattle,WA,98112,47.62397,-122.29521000000001,,1162,4.0,$$,,,,9nJlVsm9GEz6DFhK5ckaYA,cafe-flora-seattle,1.0,98112,Capitol Hill
+266,mO-OPKmvA4VtpZHoAlvFxA,Kin Dee,2301 E Madison St,Seattle,WA,98112,47.61913,-122.30235,,95,4.5,,,,,mO-OPKmvA4VtpZHoAlvFxA,kin-dee-seattle-4,1.0,98112,Capitol Hill
+267,scZE9CoorAjDPO4CiVTRHg,Simply Soulful,2909-B E Madison Ave,Seattle,WA,98112,47.624083,-122.294851,,272,4.5,$$,,,,scZE9CoorAjDPO4CiVTRHg,simply-soulful-seattle,1.0,98112,Capitol Hill
+268,rDtJGrHmFv5V4pxtuSj4XQ,Nishino,3130 E Madison St,Seattle,WA,98112,47.626865892007,-122.29180523016001,,659,4.5,$$$,,,,rDtJGrHmFv5V4pxtuSj4XQ,nishino-seattle,2.0,98112,Capitol Hill
+269,zV3tTEWnDrWWT07baEyi-Q,Queen Bee Cafe,2200 E Madison St,Seattle,WA,98112,47.618761713456706,-122.303428728242,,386,4.5,$,,,,zV3tTEWnDrWWT07baEyi-Q,queen-bee-cafe-seattle,1.0,98112,Capitol Hill
+270,mnHqSFARAPHZsSJ8ZkXdMQ,Jae's Asian Bistro & Sushi,2801 E Madison St,Seattle,WA,98112,47.62343,-122.2959,,201,4.0,$$,,,,mnHqSFARAPHZsSJ8ZkXdMQ,jaes-asian-bistro-and-sushi-seattle,1.0,98112,Capitol Hill
+271,s96Dp0LqiGDLLWBIXODZCQ,Araya's Place,2808 E Madison St,Seattle,WA,98112,47.623862599999995,-122.29609540000001,,365,4.5,$$,,,,s96Dp0LqiGDLLWBIXODZCQ,arayas-place-seattle-3,1.0,98112,Capitol Hill
+272,s96Dp0LqiGDLLWBIXODZCQ,Araya's Place,2808 E Madison St,Seattle,WA,98112,47.623862599999995,-122.29609540000001,,365,4.5,$$,,,,s96Dp0LqiGDLLWBIXODZCQ,arayas-place-seattle-3,2.0,98112,Capitol Hill
+273,ZHMHUTDxXhufLU-iFSNntg,Hanok,4021 E Madison St,Seattle,WA,98112,47.633829999999996,-122.28028,,77,4.5,$$,,,,ZHMHUTDxXhufLU-iFSNntg,hanok-seattle-2,1.0,98112,Capitol Hill
+274,Od_qtfqZzdtZry44rRC5Xg,Park Place,1927 43rd Ave E,Seattle,WA,98112,47.636559999999996,-122.27741,,47,4.0,$$$,,,,Od_qtfqZzdtZry44rRC5Xg,park-place-seattle-3,1.0,98112,Capitol Hill
+275,cAFXng3Gr1cBCFkP1VIxng,The Independent Pizzeria,4235 E Madison St,Seattle,WA,98112,47.636044,-122.277377,,156,4.0,$$,,,,cAFXng3Gr1cBCFkP1VIxng,the-independent-pizzeria-seattle-2,1.0,98112,Capitol Hill
+276,58cEuMDzyS2TkDm_oYEROQ,Cactus Restaurants,4220 E Madison St,Seattle,WA,98112,47.636175,-122.2776929,,504,4.0,$$,,,,58cEuMDzyS2TkDm_oYEROQ,cactus-restaurants-seattle,1.0,98112,Capitol Hill
+277,AyTU1qlxPdFLfTlEbkr0QQ,Bamboo Thai Cuisine,1841 42nd Ave E,Seattle,WA,98112,47.63584,-122.2789,,13,3.5,,,,,AyTU1qlxPdFLfTlEbkr0QQ,bamboo-thai-cuisine-seattle,1.0,98112,Capitol Hill
+278,MAlntNa6HiQ8k2xrB2vKRA,Madison Kitchen,4122 E Madison St,Seattle,WA,98112,47.63548,-122.27895,,117,4.0,$$,,,,MAlntNa6HiQ8k2xrB2vKRA,madison-kitchen-seattle,1.0,98112,Capitol Hill
+279,N_-gjv4iMPw5o6-qqCoBaQ,McGilvra's,4234 E Madison St,Seattle,WA,98112,47.6364311254914,-122.277245850419,,150,3.0,$$,,,,N_-gjv4iMPw5o6-qqCoBaQ,mcgilvras-seattle,1.0,98112,Capitol Hill
+280,BNNYg6r3vC0sEQADl3aihA,Scoop Du Jour Ice Creamery,4029 E Madison St,Seattle,WA,98112,47.63399999999999,-122.28018999999999,,57,4.0,$,,,,BNNYg6r3vC0sEQADl3aihA,scoop-du-jour-ice-creamery-seattle,1.0,98112,Capitol Hill
+281,GMIXLtAWeGiQZrEm0XigPQ,The Attic Alehouse & Eatery,4226 E Madison St,Seattle,WA,98112,47.63635,-122.27762990000001,,178,3.5,$$,,,,GMIXLtAWeGiQZrEm0XigPQ,the-attic-alehouse-and-eatery-seattle,1.0,98112,Capitol Hill
+282,zauzlycgK_KaluWM3_4I5A,Red Onion Tavern,4210 E Madison St,Seattle,WA,98112,47.636043548584006,-122.27813720703101,,42,4.0,$$,,,,zauzlycgK_KaluWM3_4I5A,red-onion-tavern-seattle,2.0,98112,Capitol Hill
+283,t09uh3l12ykJApZXOa3RzA,Cafe Lago,2305 24th Ave E,Seattle,WA,98112,47.63973,-122.30226,,225,3.5,$$,,,,t09uh3l12ykJApZXOa3RzA,cafe-lago-seattle,2.0,98112,Capitol Hill
+284,tsx9nYQlKffGA5yH2NnT3A,Teriyaki Bowl,3121 E Madison St,Seattle,WA,98112,47.62618,-122.29156,,37,4.0,$,,,,tsx9nYQlKffGA5yH2NnT3A,teriyaki-bowl-seattle-2,1.0,98112,Capitol Hill
+285,tsx9nYQlKffGA5yH2NnT3A,Teriyaki Bowl,3121 E Madison St,Seattle,WA,98112,47.62618,-122.29156,,37,4.0,$,,,,tsx9nYQlKffGA5yH2NnT3A,teriyaki-bowl-seattle-2,2.0,98112,Capitol Hill
+286,nT3E2EORXiaX2aAvUIsVBg,SWeL Restaurant,3417 Evanston Ave N,Seattle,WA,98103,47.6506701329953,-122.351689688666,,266,4.5,$$,,,,nT3E2EORXiaX2aAvUIsVBg,swel-restaurant-seattle-2,1.0,98103,Fremont & Wallingford
+287,mp3KT0jgce1_4GoFBoGB_A,19 GOLD,3601 Fremont Ave N,Seattle,WA,98103,47.651839,-122.35031399999998,,262,4.5,$$,,,,mp3KT0jgce1_4GoFBoGB_A,19-gold-seattle,1.0,98103,Fremont & Wallingford
+288,a4K6WMS8JW31VBteDM5TIA,Manolin,3621 Stone Way N,Seattle,WA,98103,47.651215,-122.34309099999999,,464,4.5,$$,,,,a4K6WMS8JW31VBteDM5TIA,manolin-seattle,2.0,98103,Fremont & Wallingford
+289,FWQCmFEe74oh7UmSHjZ1LQ,Cafe Turko,750 N 34th St,Seattle,WA,98103,47.6494089483896,-122.347989527251,,955,4.0,$$,,,,FWQCmFEe74oh7UmSHjZ1LQ,cafe-turko-seattle-4,1.0,98103,Fremont & Wallingford
+290,FbR3hCxZI8HPeukE7c-ZJA,Kin Len Thai Night Bites,3517 Fremont Ave N,Seattle,WA,98103,47.65115,-122.35023000000001,,55,4.0,$$,,,,FbR3hCxZI8HPeukE7c-ZJA,kin-len-thai-night-bites-seattle-2,1.0,98103,Fremont & Wallingford
+291,EP1SGHNwZNKe82wfqIsPkw,Brouwer's Cafe,400 N 35th St,Seattle,WA,98103,47.65163,-122.35423,,970,4.0,$$,,,,EP1SGHNwZNKe82wfqIsPkw,brouwers-cafe-seattle,1.0,98103,Fremont & Wallingford
+292,PWKLXxGZI1On2kRcwM8Hxw,RockCreek Seafood & Spirits,4300 Fremont Ave N,Seattle,WA,98103,47.6594842489603,-122.34978873743401,,899,4.5,$$$,,,,PWKLXxGZI1On2kRcwM8Hxw,rockcreek-seafood-and-spirits-seattle,1.0,98103,Fremont & Wallingford
+293,OUrYFr9H2Le8bA76AL9GUQ,Nuna Ramen,501 N 36th St,Seattle,WA,98103,47.651496887207,-122.35230255126999,,288,4.0,$$,,,,OUrYFr9H2Le8bA76AL9GUQ,nuna-ramen-seattle,1.0,98103,Fremont & Wallingford
+294,X6rUPbk-s908w5_5t1bmZQ,Hannyatou,1060 N 39th St,Seattle,WA,98103,47.65399,-122.34418000000001,,20,5.0,,,,,X6rUPbk-s908w5_5t1bmZQ,hannyatou-seattle-2,1.0,98103,Fremont & Wallingford
+295,tC9DRmULoje1qk0dB3EDAQ,Kamonegi,1054 N 39th St,Seattle,WA,98103,47.6540752,-122.34421979999999,,239,4.0,$$,,,,tC9DRmULoje1qk0dB3EDAQ,kamonegi-seattle,1.0,98103,Fremont & Wallingford
+296,phbhMeEye0H2I009xbID2w,The Backdoor,462 N 36th St,Seattle,WA,98103,47.652190000000004,-122.35266999999999,,261,4.0,$$,,,,phbhMeEye0H2I009xbID2w,the-backdoor-seattle,2.0,98103,Fremont & Wallingford
+297,Wk9f5Zpnu4T6Vzf6CF5iuA,Paseo Caribbean Food - Fremont,4225 Fremont Ave N,Seattle,WA,98103,47.65849,-122.35031000000001,,4999,4.5,$$,,,,Wk9f5Zpnu4T6Vzf6CF5iuA,paseo-caribbean-food-fremont-seattle-2,2.0,98103,Fremont & Wallingford
+298,d6S_AgOYhWh3wWlCqP0_KQ,Joule,3506 Stone Way N,Seattle,WA,98103,47.64962,-122.3424,,911,4.0,$$,,,,d6S_AgOYhWh3wWlCqP0_KQ,joule-seattle,1.0,98103,Fremont & Wallingford
+299,gB4EYJyfojVme3sle9xz-Q,Eve Fremont,704 N 34th St,Seattle,WA,98103,47.64972,-122.34895,,247,4.0,$$,,,,gB4EYJyfojVme3sle9xz-Q,eve-fremont-seattle,1.0,98103,Fremont & Wallingford
+300,kaqnbsTsSCa9RuiVqAu6lA,Cafe Con Todo,213 N 36th St,Seattle,WA,98103,47.65233,-122.35602,,60,4.5,$,,,,kaqnbsTsSCa9RuiVqAu6lA,cafe-con-todo-seattle,1.0,98103,Fremont & Wallingford
+301,ZULAGXaQta12BWWOMnm3DQ,Pomerol,127 N 36th St,Seattle,WA,98103,47.6525168214713,-122.35649283975401,,229,4.0,$$$,,,,ZULAGXaQta12BWWOMnm3DQ,pomerol-seattle-2,1.0,98103,Fremont & Wallingford
+302,WqQKSw8YEyyImnbzggmG5w,Red Star Taco Bar,513 N 36th St,Seattle,WA,98103,47.651413078598296,-122.351609878242,,319,4.0,$$,,,,WqQKSw8YEyyImnbzggmG5w,red-star-taco-bar-seattle,2.0,98103,Fremont & Wallingford
+303,OYRdDA88AkyUlUmriMGWxw,Yoroshiku,1913 N 45th St,Seattle,WA,98103,47.661275215696,-122.334412382889,,513,4.0,$$,,,,OYRdDA88AkyUlUmriMGWxw,yoroshiku-seattle-4,1.0,98103,Fremont & Wallingford
+304,aOCqNgTnTbdAbY61ZgRPaA,Musashi's,1400 N 45th St,Seattle,WA,98103,47.661609999999996,-122.34047,,1135,4.0,$$,,,,aOCqNgTnTbdAbY61ZgRPaA,musashis-seattle,2.0,98103,Fremont & Wallingford
+305,44OpjjkNgtgbYR92p3xNBQ,Kokkaku,2208 N 45th St,Seattle,WA,98103,47.66163,-122.33202,,161,4.0,$$$,,,,44OpjjkNgtgbYR92p3xNBQ,kokkaku-seattle,1.0,98103,Fremont & Wallingford
+306,FtnhaLGRsDsq2phVU2xg1Q,Rocking Wok Taiwanese Cuisine,4301 Interlake Ave N,Seattle,WA,98103,47.659420000000004,-122.34088999999999,,322,4.0,$,,,,FtnhaLGRsDsq2phVU2xg1Q,rocking-wok-taiwanese-cuisine-seattle-2,3.0,98103,Fremont & Wallingford
+307,r17adtCvWYvTexfLrQX56w,Cantinetta,3650 Wallingford Ave,Seattle,WA,98103,47.65186,-122.33613999999999,,372,4.0,$$$,,,,r17adtCvWYvTexfLrQX56w,cantinetta-seattle,1.0,98103,Fremont & Wallingford
+308,rxzZ01mVOR9IZz8pjD4trQ,Ezell's Famous Chicken,2300 N 45th St,Seattle,WA,98103,47.66158,-122.33098999999999,,121,3.5,$,,,,rxzZ01mVOR9IZz8pjD4trQ,ezells-famous-chicken-seattle-7,1.0,98103,Fremont & Wallingford
+309,yi9xXidbjh_bTM9J0MElwQ,Bizzarro Italian Cafe,1307 N 46th St,Seattle,WA,98103,47.66196,-122.34171,,850,4.0,$$,,,,yi9xXidbjh_bTM9J0MElwQ,bizzarro-italian-cafe-seattle-3,2.0,98103,Fremont & Wallingford
+310,018rYSHznjI1lzEU9PDavA,mkt.,2108 N 55th St,Seattle,WA,98103,47.6686946,-122.33295120000001,,310,4.5,$$$,,,,018rYSHznjI1lzEU9PDavA,mkt-seattle,1.0,98103,Fremont & Wallingford
+311,Gn5erxCRML47GgbGYdxzFA,Bongos,6501 Aurora Ave N,Seattle,WA,98103,47.676744953355104,-122.346925400198,,826,4.5,$$,,,,Gn5erxCRML47GgbGYdxzFA,bongos-seattle,1.0,98103,Fremont & Wallingford
+312,Nm0amaHjKa97jR-PeJq6Zw,TNT Taqueria,2114 N 45th St,Seattle,WA,98103,47.6615085566491,-122.33293953822799,,408,4.0,$,,,,Nm0amaHjKa97jR-PeJq6Zw,tnt-taqueria-seattle,2.0,98103,Fremont & Wallingford
+313,mOybprI4rEcRQUxBqAhupw,Harvest Beat,1711 N 45th St,Seattle,WA,98103,47.66115,-122.33678,,169,4.5,$$$,,,,mOybprI4rEcRQUxBqAhupw,harvest-beat-seattle,1.0,98103,Fremont & Wallingford
+314,yAiBbQSOVPngdQQg9Bs6Sw,Bodrum Bistro Mediterranean,1712 N 45th St,Seattle,WA,98103,47.6615225,-122.3369892,,159,4.0,$$,,,,yAiBbQSOVPngdQQg9Bs6Sw,bodrum-bistro-mediterranean-seattle-2,2.0,98103,Fremont & Wallingford
+315,um4_fgtE2Wg9NLXUaNWlAw,Tilth,1411 N 45th St,Seattle,WA,98103,47.661159999999995,-122.34006000000001,,880,4.0,$$$,,,,um4_fgtE2Wg9NLXUaNWlAw,tilth-seattle,1.0,98103,Fremont & Wallingford
+316,2_5jXEj_3alsGHLwyHEj9A,Ramen Man Noodle House,1616 N 45th St,Seattle,WA,98103,47.661609999999996,-122.33838999999999,,382,3.5,$,,,,2_5jXEj_3alsGHLwyHEj9A,ramen-man-noodle-house-seattle,2.0,98103,Fremont & Wallingford
+317,nyf0Mrr8MhVcu2Dmpnuo-w,Pam's Kitchen,1715 N 45th St,Seattle,WA,98103,47.6612766002491,-122.336774915457,,333,4.0,$$,,,,nyf0Mrr8MhVcu2Dmpnuo-w,pams-kitchen-seattle-4,1.0,98103,Fremont & Wallingford
+318,g6kUGkuVCZX5-Rr8NgNLsA,Fremont Bowl,4258 Fremont Ave N,Seattle,WA,98103,47.6590046,-122.3498476,,463,4.5,$$,,,,g6kUGkuVCZX5-Rr8NgNLsA,fremont-bowl-seattle-2,3.0,98103,Fremont & Wallingford
+319,-wZ7gDebbQRJVZvLPCeJVA,36 Stone,3630 Stone Way N,Seattle,WA,98103,47.651720000000005,-122.34227,,51,4.5,$$,,,,-wZ7gDebbQRJVZvLPCeJVA,36-stone-seattle,1.0,98103,Fremont & Wallingford
+320,xrgB6Mjzw_r_qyavxueebw,Kisaku Sushi,2101 N 55th St,Seattle,WA,98103,47.6685751279974,-122.333174272694,,715,4.0,$$,,,,xrgB6Mjzw_r_qyavxueebw,kisaku-sushi-seattle,2.0,98103,Fremont & Wallingford
+321,Dj9UJMxrhg-mOVvbG0abPA,Art of The Table,3801 Stone Way N,Seattle,WA,98103,47.6528780234499,-122.34278370059401,,644,4.0,$$$$,,,,Dj9UJMxrhg-mOVvbG0abPA,art-of-the-table-seattle,1.0,98103,Fremont & Wallingford
+322,4IaolROHObe9RSuRtRZ0DA,Issian,1618 N 45th St,Seattle,WA,98103,47.6614941311312,-122.338273105585,,393,3.5,$$,,,,4IaolROHObe9RSuRtRZ0DA,issian-seattle,1.0,98103,Fremont & Wallingford
+323,ldDO6kIhUfwh6KRiKatF4g,Westward,2501 N Northlake Way,Seattle,WA,98103,47.6518205,-122.3290061,,637,3.5,$$$,,,,ldDO6kIhUfwh6KRiKatF4g,westward-seattle,1.0,98103,Fremont & Wallingford
+324,3X0huIEifOdj_IygRaDiGQ,Bite Box,307 W McGraw St,Seattle,WA,98119,47.6394157409668,-122.36144256591801,,107,4.5,$$,,,,3X0huIEifOdj_IygRaDiGQ,bite-box-seattle,1.0,98119,Queen Anne
+325,4DT0mvC9Ox_sVVHJwta7Pw,Champagne Diner,945 Elliott Ave W,Seattle,WA,98119,47.62738,-122.37011000000001,,25,4.5,,,,,4DT0mvC9Ox_sVVHJwta7Pw,champagne-diner-seattle,1.0,98119,Queen Anne
+326,iyBOsGLVBl-OxTXpo_x0bg,Malena's Taco Shop,620 W McGraw St,Seattle,WA,98119,47.639719899999996,-122.36595,,238,3.5,$,,,,iyBOsGLVBl-OxTXpo_x0bg,malenas-taco-shop-seattle-2,2.0,98119,Queen Anne
+327,FqNEVHNM-2MSq-KiwK6XbQ,Curbside,3 W Nickerson St,Seattle,WA,98119,47.6497067,-122.3577959,,105,4.5,$,,,,FqNEVHNM-2MSq-KiwK6XbQ,curbside-seattle,,98119,Queen Anne
+328,uHT6tk6YtCDQST9fJJOCow,Magic Dragon,1827 15th Ave W,Seattle,WA,98119,47.635459999999995,-122.37703,,224,4.5,$,,,,uHT6tk6YtCDQST9fJJOCow,magic-dragon-seattle-3,1.0,98119,Queen Anne
+329,Fqm1ve-VB4_9BHbx12XIkw,Yasuko's Teriyaki,3200 15th Ave W,Seattle,WA,98119,47.64869,-122.37588000000001,,94,4.0,$,,,,Fqm1ve-VB4_9BHbx12XIkw,yasukos-teriyaki-seattle-5,2.0,98119,Queen Anne
+330,AfUw9xtEw0TeDlNedfQoDg,Fuji Bakery,1030 Elliott Ave W,Seattle,WA,98119,47.6282701,-122.37036129999998,,111,4.5,$,,,,AfUw9xtEw0TeDlNedfQoDg,fuji-bakery-seattle-2,1.0,98119,Queen Anne
+331,AfUw9xtEw0TeDlNedfQoDg,Fuji Bakery,1030 Elliott Ave W,Seattle,WA,98119,47.6282701,-122.37036129999998,,111,4.5,$,,,,AfUw9xtEw0TeDlNedfQoDg,fuji-bakery-seattle-2,3.0,98119,Queen Anne
+332,wDZLXV07dgigRc6XKWi1-g,Sawyer,5309 22nd Ave NW,Seattle,WA,98107,47.666726313963395,-122.384881256304,,265,4.5,,,,,wDZLXV07dgigRc6XKWi1-g,sawyer-seattle-3,1.0,98107,Ballard
+333,9OXEAAPONxcA2PQO75fnJQ,The Walrus and the Carpenter,4743 Ballard Ave NW,Seattle,WA,98107,47.663509999999995,-122.38022,,1576,4.0,$$,,,,9OXEAAPONxcA2PQO75fnJQ,the-walrus-and-the-carpenter-seattle,2.0,98107,Ballard
+334,Xb7B8FEDB4D-BufiBPBk6g,Valentinetti's,5425 Russell Ave NW,Seattle,WA,98107,47.66833,-122.38313000000001,,7,3.5,,,,,Xb7B8FEDB4D-BufiBPBk6g,valentinettis-seattle,,98107,Ballard
+335,_2oLh-fv5Zhxo9H6goOU-g,Tarsan I Jane,4012 Leary Way NW,Seattle,WA,98107,47.65644,-122.36175,,89,4.0,$$$$,,,,_2oLh-fv5Zhxo9H6goOU-g,tarsan-i-jane-seattle-2,1.0,98107,Ballard
+336,MFP8MhZlBV2fuhOyHaF56w,Tacos El Asadero,3517 Rainier Ave S,Seattle,WA,98118,47.571183000000005,-122.29309599999999,,318,4.5,$,,,,MFP8MhZlBV2fuhOyHaF56w,tacos-el-asadero-seattle-2,1.0,98118,Columbia City
+337,75afHb8orbSEYCFq1MTDLA,Archipelago,5607 Rainier Ave S,Seattle,WA,98118,47.551612968178205,-122.278183065355,,28,5.0,,,,,75afHb8orbSEYCFq1MTDLA,archipelago-seattle-3,1.0,98118,Columbia City
+338,TUZ8bJufEb_DmzvIOVVutA,Super Six,3714 S Hudson St,Seattle,WA,98118,47.55728,-122.28556,,606,4.0,$$,,,,TUZ8bJufEb_DmzvIOVVutA,super-six-seattle,1.0,98118,Columbia City
+339,DeATAIXJ-kEAKyKePBsfHQ,Lil Red Takeout and Catering,4225 Rainier Ave S,Seattle,WA,98118,47.56492,-122.28878,,89,4.5,$$,,,,DeATAIXJ-kEAKyKePBsfHQ,lil-red-takeout-and-catering-seattle,1.0,98118,Columbia City
+340,IsWM7BrvfZgZfZnC22_64w,Island Soul Rum Bar & Soul Shack,4869 Rainier Ave S,Seattle,WA,98118,47.55812,-122.28544,,805,4.0,$$,,,,IsWM7BrvfZgZfZnC22_64w,island-soul-rum-bar-and-soul-shack-seattle,2.0,98118,Columbia City
+341,KMrr9hYyrK3J_V8lmeLQvA,La Medusa,4857 Rainier Ave S,Seattle,WA,98118,47.55843,-122.28555,,220,4.0,$$$,,,,KMrr9hYyrK3J_V8lmeLQvA,la-medusa-seattle,1.0,98118,Columbia City
+342,GiDMkHsWj2AtHZAPTjBD-A,La Teranga,4903 Rainier Ave S,Seattle,WA,98118,47.557638,-122.28516200000001,,197,4.5,$$,,,,GiDMkHsWj2AtHZAPTjBD-A,la-teranga-seattle,1.0,98118,Columbia City
+343,OLhD00JNPFLZHLxesbi-Vg,Emma's BBQ,5303 Rainier Ave S,Seattle,WA,98118,47.553540000000005,-122.28046,,133,4.5,$$,,,,OLhD00JNPFLZHLxesbi-Vg,emmas-bbq-seattle-2,1.0,98118,Columbia City
+344,hLoPPj_18x0WCXl6ZdkpXw,MOD Pizza,3820 Rainier Ave S,Seattle,WA,98118,47.56922,-122.28983000000001,,30,4.0,,,,,hLoPPj_18x0WCXl6ZdkpXw,mod-pizza-seattle-13,1.0,98118,Columbia City
+345,zq9xLldo9tQifAFsMa_3dw,The Comfort Zone,5016 Rainier Ave S,Seattle,WA,98118,47.556679700000004,-122.28392190000001,,90,4.0,$$,,,,zq9xLldo9tQifAFsMa_3dw,the-comfort-zone-seattle,,98118,Columbia City
+346,wqHrLZkr1NBgkgpVpwMdcg,Safari Njema Restaurant,5041 Rainier Ave S,Seattle,WA,98118,47.55598,-122.28408999999999,,194,4.5,$$,,,,wqHrLZkr1NBgkgpVpwMdcg,safari-njema-restaurant-seattle,1.0,98118,Columbia City
+347,Ndlc_V2DsnowhXDdMuadYw,Bua 9 Thai Cuisine,5020 Rainer Ave S,Seattle,WA,98118,47.55639,-122.28371000000001,,99,4.0,,,,,Ndlc_V2DsnowhXDdMuadYw,bua-9-thai-cuisine-seattle-3,1.0,98118,Columbia City
+348,npuNF0vaDznmCaim4IBVMg,Huong Duong,7136 Martin Luther King Jr Way S,Seattle,WA,98118,47.537775,-122.281089,,257,4.5,$,,,,npuNF0vaDznmCaim4IBVMg,huong-duong-seattle,2.0,98118,Columbia City
+349,xRHV0DWLCTj1-dXMqcxxmg,Bang Bang Kitchen,4219 S Othello St,Seattle,WA,98118,47.5368950382344,-122.279720306396,,76,4.0,$$,,,,xRHV0DWLCTj1-dXMqcxxmg,bang-bang-kitchen-seattle,1.0,98118,Columbia City
+350,BmNk5RoQVyOtoQdo5UHRwg,Wicked Chopstix,6021 Martin Luther King Jr Way S,Seattle,WA,98118,47.54730293824,-122.28650797158501,,146,4.0,$$,,,,BmNk5RoQVyOtoQdo5UHRwg,wicked-chopstix-seattle-3,2.0,98118,Columbia City
+351,UvLTQakFo2DDFyLka0ECnw,BOPBOX,5633 Airport Way S,Seattle,WA,98108,47.5513,-122.3191,,85,4.5,$$,,,,UvLTQakFo2DDFyLka0ECnw,bopbox-seattle,1.0,98108,Columbia City
+352,ZePNj2ZqimO9D2WcKZRRwg,Kauai Family Restaurant,6324 6th Ave S,Seattle,WA,98108,47.54553,-122.32585,,553,4.5,$,,,,ZePNj2ZqimO9D2WcKZRRwg,kauai-family-restaurant-seattle,1.0,98108,Columbia City
+353,_z_yU-duavPBAqHB64UpTA,Ciudad,6118 12th Ave S,Seattle,WA,98108,47.548140000000004,-122.3169,,269,4.5,$$,,,,_z_yU-duavPBAqHB64UpTA,ciudad-seattle-2,2.0,98108,Columbia City
+354,hGxKFXlzvl21rjvfLePWWw,Fonda La Catrina,5905 Airport Way S,Seattle,WA,98108,47.54992,-122.31781000000001,,893,4.0,$$,,,,hGxKFXlzvl21rjvfLePWWw,fonda-la-catrina-seattle,1.0,98108,Columbia City
+355,Xgeb-8Fr6FvDMOTuw7r0NQ,Sisters And Brothers,1128 S Albro Pl,Seattle,WA,98108,47.5459213256836,-122.31755065918001,,461,4.0,$$,,,,Xgeb-8Fr6FvDMOTuw7r0NQ,sisters-and-brothers-seattle,1.0,98108,Columbia City
+356,LzRy0uXeR2vW6u6gYxgA6g,Smarty Pants,6017 Airport Way S,Seattle,WA,98108,47.548809999999996,-122.31663999999999,,424,4.0,$$,,,,LzRy0uXeR2vW6u6gYxgA6g,smarty-pants-seattle,1.0,98108,Columbia City
+357,d12f_94KM78sI8WpSCiavQ,SODO Chicken,6538 4th Ave S,Seattle,WA,98108,47.54408,-122.32914,,60,4.0,$,,,,d12f_94KM78sI8WpSCiavQ,sodo-chicken-seattle-3,1.0,98108,Columbia City
+358,C093QdgQoTYiHGv2YSi62w,Hangar Cafe,6261 13th Ave S,Seattle,WA,98108,47.54672,-122.31641,,736,4.0,$$,,,,C093QdgQoTYiHGv2YSi62w,hangar-cafe-seattle,1.0,98108,Columbia City
+359,ObzLPusqsCfdrFDZJAFcOQ,The Corson Building,5609 Corson Ave S,Seattle,WA,98108,47.55196,-122.32038999999999,,160,4.0,$$$$,,,,ObzLPusqsCfdrFDZJAFcOQ,the-corson-building-seattle,1.0,98108,Columbia City
+360,2iDEq-WsiBftB4ThZdMqiA,Daimonji Japanese Restaurant,5963 Corson Ave S,Seattle,WA,98108,47.547646,-122.32229299999999,,245,4.0,$$,,,,2iDEq-WsiBftB4ThZdMqiA,daimonji-japanese-restaurant-seattle,2.0,98108,Columbia City
+361,wBTCvhyi_aq0vbsB8xgBoQ,Chilolos Tacos,6538 4th Ave S,Seattle,WA,98108,47.54408170000001,-122.3291524,,80,5.0,$,,,,wBTCvhyi_aq0vbsB8xgBoQ,chilolos-tacos-seattle-2,1.0,98108,Columbia City
+362,xhIC33kwbmoDHk593P3Z2w,Lorena's Kitchen,6124 12th Ave S,Seattle,WA,98108,47.5479389335804,-122.31727079412902,,23,5.0,$,,,,xhIC33kwbmoDHk593P3Z2w,lorenas-kitchen-seattle,1.0,98108,Columbia City
+363,9yHJsyGu_AtyTlDkVKRYPA,Katsu Burger,6538 4th Ave S,Seattle,WA,98108,47.54408,-122.32914,,792,4.0,$$,,,,9yHJsyGu_AtyTlDkVKRYPA,katsu-burger-seattle,1.0,98108,Columbia City
+364,txhqePeCa9P7MvPI5S65tA,El Sirenito,5901 Airport Way S,Seattle,WA,98108,47.54999,-122.31788999999999,,111,4.0,$$,,,,txhqePeCa9P7MvPI5S65tA,el-sirenito-seattle,1.0,98108,Columbia City
+365,DULfZDXKWLmX7MIH0J04yg,Calozzi's Cheesesteaks,7016 E Marginal Way S,Seattle,WA,98108,47.540248999999996,-122.32284540000002,,276,4.5,$$,,,,DULfZDXKWLmX7MIH0J04yg,calozzis-cheesesteaks-seattle-3,1.0,98108,Columbia City
+366,05NQ5TVCBGiAOHtE54sliQ,Tu Cantinas,6105 13th Ave S,Seattle,WA,98108,47.54833,-122.31631000000002,,32,4.5,$,,,,05NQ5TVCBGiAOHtE54sliQ,tu-cantinas-seattle-2,1.0,98108,Columbia City
+367,r_F-LS4ER6404U1g_ejbpg,Cutting Board,5503 Airport Way S,Seattle,WA,98108,47.553109899999995,-122.3212,,248,4.0,$$,,,,r_F-LS4ER6404U1g_ejbpg,cutting-board-seattle,1.0,98108,Columbia City
+368,WY6hos_I4SGiuKINsUHzTA,I Luv Teriyaki,6500 4th Ave S,Seattle,WA,98108,47.54514,-122.32932,,150,4.0,$,,,,WY6hos_I4SGiuKINsUHzTA,i-luv-teriyaki-seattle,2.0,98108,Columbia City
+369,WY6hos_I4SGiuKINsUHzTA,I Luv Teriyaki,6500 4th Ave S,Seattle,WA,98108,47.54514,-122.32932,,150,4.0,$,,,,WY6hos_I4SGiuKINsUHzTA,i-luv-teriyaki-seattle,1.0,98108,Columbia City
+370,54BMKlZDJoE67l9d0E92iQ,Slim's Last Chance,5606 1st Ave S,Seattle,WA,98108,47.552479999999996,-122.3339,,317,4.0,$$,,,,54BMKlZDJoE67l9d0E92iQ,slims-last-chance-seattle,2.0,98108,Columbia City
+371,x31M4pVKfOWYwxL5o_wXPQ,Loretta's Northwesterner,8617 14th Ave S,Seattle,WA,98108,47.52588,-122.31513999999999,,446,4.0,$,,,,x31M4pVKfOWYwxL5o_wXPQ,lorettas-northwesterner-seattle,1.0,98108,Columbia City
+372,RjL-9zV4TVHh-7ukm96UiQ,Via Tribunali,6009 12th Ave S,Seattle,WA,98108,47.54882,-122.3175,,202,3.5,$$,,,,RjL-9zV4TVHh-7ukm96UiQ,via-tribunali-seattle-5,2.0,98108,Columbia City
+373,RjL-9zV4TVHh-7ukm96UiQ,Via Tribunali,6009 12th Ave S,Seattle,WA,98108,47.54882,-122.3175,,202,3.5,$$,,,,RjL-9zV4TVHh-7ukm96UiQ,via-tribunali-seattle-5,1.0,98108,Columbia City
+374,pL5BYQPqDNmmi3vfWVk7Lw,Khao San Road Thai Cuisine,5963 Corson Ave S,Seattle,WA,98108,47.5483998,-122.32135590000001,,79,4.0,$$,,,,pL5BYQPqDNmmi3vfWVk7Lw,khao-san-road-thai-cuisine-seattle,1.0,98108,Columbia City
+375,6_zxj1HKD8mSNI8Rh2cxog,Jack's BBQ,3924 Airport Way S,Seattle,WA,98108,47.568253286253004,-122.32243803743499,,706,4.0,$$,,,,6_zxj1HKD8mSNI8Rh2cxog,jacks-bbq-seattle-9,2.0,98108,Columbia City
+376,6_zxj1HKD8mSNI8Rh2cxog,Jack's BBQ,3924 Airport Way S,Seattle,WA,98108,47.568253286253004,-122.32243803743499,,706,4.0,$$,,,,6_zxj1HKD8mSNI8Rh2cxog,jacks-bbq-seattle-9,1.0,98108,Columbia City
+377,AGhTFwAPzC-LPRh123kFUg,Bar Ciudad,1210 S Bailey St,Seattle,WA,98108,47.5481,-122.31696000000001,,31,3.5,$$,,,,AGhTFwAPzC-LPRh123kFUg,bar-ciudad-seattle,1.0,98108,Columbia City
+378,TDsXXHZQzTXskcRmFpcj_w,Maruta Shoten,1024 S Bailey St,Seattle,WA,98108,47.5478706359863,-122.318885803223,,199,4.5,$,,,,TDsXXHZQzTXskcRmFpcj_w,maruta-shoten-seattle,2.0,98108,Columbia City
+379,VkOPEs94JE2XD5_6WCXjcw,Ambakity Cocina Mexicana,8515 14th Ave S,Seattle,WA,98108,47.52682,-122.31513999999999,,130,4.5,$$,,,,VkOPEs94JE2XD5_6WCXjcw,ambakity-cocina-mexicana-seattle,1.0,98108,Columbia City
+380,2Na4OIPnNZpzlG9kuonXUw,Lucky Chinese Restaurant,5807 4th Ave S,Seattle,WA,98108,47.55081,-122.32995,,105,4.0,$,,,,2Na4OIPnNZpzlG9kuonXUw,lucky-chinese-restaurant-seattle,3.0,98108,Columbia City
+381,-TB2MdNDmRouxOZ8QSzkFg,Marco Polo Bar & Grill,5613 4th Ave S,Seattle,WA,98108,47.55209,-122.32983999999999,,215,4.0,$,,,,-TB2MdNDmRouxOZ8QSzkFg,marco-polo-bar-and-grill-seattle,1.0,98108,Columbia City
+382,hRVonTo8jdiMhoeOnVNxCw,Brother Joe,5629 Airport Way S,Seattle,WA,98108,47.551535,-122.31935800000001,,127,4.0,$$,,,,hRVonTo8jdiMhoeOnVNxCw,brother-joe-seattle,1.0,98108,Columbia City
+383,qJjodNeWFLxr2r40u2pqyw,Stellar Pizza & Ale,5513 Airport Way S,Seattle,WA,98108,47.5529289,-122.32077790000001,,395,4.0,$$,,,,qJjodNeWFLxr2r40u2pqyw,stellar-pizza-and-ale-seattle,1.0,98108,Columbia City
+384,8M_ttK8JsGJp3cTdJFtaPg,Matt's Famous Chili Dogs,6615 E Marginal Way S,Seattle,WA,98108,47.5439,-122.33012,,166,4.0,$,,,,8M_ttK8JsGJp3cTdJFtaPg,matts-famous-chili-dogs-seattle,1.0,98108,Columbia City
+385,wqww7beJXveaMDlMZ1F9Xw,Uncle Eddie's,8601 14th Ave S,Seattle,WA,98108,47.526309999999995,-122.3151098,,97,4.5,$$,,,,wqww7beJXveaMDlMZ1F9Xw,uncle-eddies-seattle,1.0,98108,Columbia City
+386,9YtkF4BmaL4gVq2o0N0uAA,Phorale The Flavor Trailer,,Seattle,WA,98108,47.5478096008301,-122.323081970215,,11,4.5,,,,,9YtkF4BmaL4gVq2o0N0uAA,phorale-the-flavor-trailer-seattle,3.0,98108,Columbia City
+387,xp885BFjOjLp4UNBTEa3pQ,South Town Pie,8611 14th Ave S,Seattle,WA,98108,47.52605,-122.3151,,65,4.0,$,,,,xp885BFjOjLp4UNBTEa3pQ,south-town-pie-seattle,1.0,98108,Columbia City
+388,uUUXKyJ2e2IG8MHdiz0QIw,Wok's Teriyaki,6316 6th Ave S,Seattle,WA,98108,47.54574,-122.32585,,39,3.5,$,,,,uUUXKyJ2e2IG8MHdiz0QIw,woks-teriyaki-seattle,2.0,98108,Columbia City
+389,tYasAlTGwu9fuMtWCwA90g,Conscious Eatery,5620 6th Ave S,Seattle,WA,98108,47.55198,-122.32643,,95,4.5,$$,,,,tYasAlTGwu9fuMtWCwA90g,conscious-eatery-seattle,1.0,98108,Columbia City
+390,13YPvorRFcpVNoRxkKntGQ,Bugis,4241 NE University Way,Seattle,WA,98105,47.659554,-122.31345049999999,,57,4.0,,,,,13YPvorRFcpVNoRxkKntGQ,bugis-seattle-3,1.0,98105,University District
+391,ud5NuBZka9lVZdRlhQDrjQ,Din Tai Fung,2621 NE 46th St,Seattle,WA,98105,47.661640000000006,-122.29921000000002,,2114,4.0,$$,,,,ud5NuBZka9lVZdRlhQDrjQ,din-tai-fung-seattle,1.0,98105,University District
+392,C4kz_uYJA_4NEHXgyaqeog,Bamboo Sushi,2675 NE Village Ln,Seattle,WA,98105,47.66261367,-122.29865967,,26,3.5,,,,,C4kz_uYJA_4NEHXgyaqeog,bamboo-sushi-seattle,1.0,98105,University District
+393,NCDpIDp2f-DhPO5sL5Hbdw,Xi'an Noodles,5259 University Way NE,Seattle,WA,98105,47.66815,-122.31318999999999,,768,4.0,$,,,,NCDpIDp2f-DhPO5sL5Hbdw,xian-noodles-seattle-4,3.0,98105,University District
+394,9vp47oNBP3iHTTPgrsWyNQ,Little Duck,4100 Roosevelt Way NE,Seattle,WA,98105,47.657070000000004,-122.31748,,71,4.0,$$,,,,9vp47oNBP3iHTTPgrsWyNQ,little-duck-seattle-2,1.0,98105,University District
+395,JXRZqx7qpqmvMt5K10djAA,Chi Mac,4525 University Way NE,Seattle,WA,98105,47.662079999999996,-122.31343999999999,,392,4.0,$$,,,,JXRZqx7qpqmvMt5K10djAA,chi-mac-seattle,1.0,98105,University District
+396,OiE_FU-Q65Qc5_NemKN9FA,Amazing Thai Cuisine,5210 Roosevelt Way NE,Seattle,WA,98105,47.66679,-122.31707,,554,4.5,$,,,,OiE_FU-Q65Qc5_NemKN9FA,amazing-thai-cuisine-seattle,1.0,98105,University District
+397,OuIBnrO2mPgs-RKEgUIeCg,U DupBop,4124 University Way NE,Seattle,WA,98105,47.657740000000004,-122.31289,,10,3.5,$$,,,,OuIBnrO2mPgs-RKEgUIeCg,u-dupbop-seattle,1.0,98105,University District
+398,sy7MqDXgRw7gRPRTQNivDg,Koa,4754 University Way NE,Seattle,WA,98105,47.66467,-122.3129,,31,4.5,,,,,sy7MqDXgRw7gRPRTQNivDg,koa-seattle,1.0,98105,University District
+399,52VtaJnuXu6jR8Te-yReJw,Byrek & Baguette,4209 University Way NE,Seattle,WA,98105,47.65867,-122.31352,,66,4.5,,,,,52VtaJnuXu6jR8Te-yReJw,byrek-and-baguette-seattle-2,3.0,98105,University District
+400,lnhKk82pyocPND0lhwq-mQ,BCZhang,4730 University Way NE,Seattle,WA,98105,47.663973,-122.312758,,45,4.0,,,,,lnhKk82pyocPND0lhwq-mQ,bczhang-seattle,2.0,98105,University District
+401,gVJgVlEsWul-QbAcMiupzg,U:Don Fresh Japanese Noodle Station,4515 University Way NE,Seattle,WA,98105,47.661767299999994,-122.31340349999999,,664,4.0,$$,,,,gVJgVlEsWul-QbAcMiupzg,u-don-fresh-japanese-noodle-station-seattle-6,1.0,98105,University District
+402,gP921Ghfb7ERWmOjl7r-ng,Ivar's Salmon House,401 NE Northlake Way,Seattle,WA,98105,47.653619899999995,-122.32404,,1206,3.5,$$,,,,gP921Ghfb7ERWmOjl7r-ng,ivars-salmon-house-seattle,1.0,98105,University District
+403,jzZatlgnWJfdTT_hY7NHLw,Taste of Xi'an,4523 University Way NE,Seattle,WA,98105,47.66196,-122.31345,,318,4.0,$$,,,,jzZatlgnWJfdTT_hY7NHLw,taste-of-xian-seattle,2.0,98105,University District
+404,NA0HnXcXX1Vzio0hfBo3Pg,San Juan Seltzery,3901 1st Ave S,Seattle,WA,98134,47.5678764383156,-122.335597027192,,13,4.0,,,,,NA0HnXcXX1Vzio0hfBo3Pg,san-juan-seltzery-seattle-2,1.0,98134,SODO
+405,yMLSALRbwRNG9JsqRUAPGw,Phoenecia,4717 42nd Ave SW,Seattle,WA,98116,47.56064,-122.38587333,,391,4.5,$$,,,,yMLSALRbwRNG9JsqRUAPGw,phoenecia-seattle,1.0,98116,West Seattle
+406,4nNopnnahgbaa6tOiYqCzg,Il Nido,2717 61st Ave SW,Seattle,WA,98116,47.57845,-122.41103999999999,,79,4.0,,,,,4nNopnnahgbaa6tOiYqCzg,il-nido-seattle,1.0,98116,West Seattle
+407,JaK1jA7D3Z4_8g9DySLZ8A,West of Chicago Pizza Company,5600 Delridge Way SW,Seattle,WA,98116,47.5517843,-122.3627538,,49,4.5,,,,,JaK1jA7D3Z4_8g9DySLZ8A,west-of-chicago-pizza-company-seattle,1.0,98116,West Seattle
+408,oMy_YkyYr8u1_xs_WHkn8w,Lady Jaye,4523 California Ave SW,Seattle,WA,98116,47.56223,-122.38706,,22,4.5,,,,,oMy_YkyYr8u1_xs_WHkn8w,lady-jaye-seattle,1.0,98116,West Seattle
+409,XPoJa4sezeAu36-s_853Zw,Mashiko Japanese Restaurant & Sushi Bar,4725 California Ave SW,Seattle,WA,98116,47.56038,-122.38698000000001,,705,4.0,$$$,,,,XPoJa4sezeAu36-s_853Zw,mashiko-japanese-restaurant-and-sushi-bar-seattle,,98116,West Seattle
+410,XrdWEvW7KLEpCO7OrP8GDg,Harry's Beach House,2676 Alki Ave SW,Seattle,WA,98116,47.57937167,-122.40909833,,21,4.5,,,,,XrdWEvW7KLEpCO7OrP8GDg,harrys-beach-house-seattle,2.0,98116,West Seattle
+411,gDAO-4m63svPUpii5b8kww,Ma'ono,4437 California Ave SW,Seattle,WA,98116,47.563648628742506,-122.386841379762,,853,4.0,$$,,,,gDAO-4m63svPUpii5b8kww,maono-seattle,1.0,98116,West Seattle
+412,gDAO-4m63svPUpii5b8kww,Ma'ono,4437 California Ave SW,Seattle,WA,98116,47.563648628742506,-122.386841379762,,853,4.0,$$,,,,gDAO-4m63svPUpii5b8kww,maono-seattle,2.0,98116,West Seattle
+413,GQlmlX3Npg60DULuGugOCg,Haymaker,4706 California Ave SW,Seattle,WA,98116,47.5608744374067,-122.386777705268,,44,4.0,,,,,GQlmlX3Npg60DULuGugOCg,haymaker-seattle,3.0,98116,West Seattle
+414,uTh0BMlaqBtjx2ws-hsqQg,Raccolto,4147 California Ave SW,Seattle,WA,98116,47.5651027485655,-122.38706595098499,,189,4.0,$$$,,,,uTh0BMlaqBtjx2ws-hsqQg,raccolto-seattle,1.0,98116,West Seattle
+415,Dr9CxgdePozHGwU4beaYGQ,Itto's Tapas,4160 California Ave SW,Seattle,WA,98116,47.5648,-122.38655,,272,4.5,$$,,,,Dr9CxgdePozHGwU4beaYGQ,ittos-tapas-seattle-4,1.0,98116,West Seattle
+416,BeGo3TSuhF7fOv0dzp0s1g,Pizzeria Credo,4520 California Ave SW,Seattle,WA,98116,47.5622433,-122.38664170000001,,465,4.5,$$,,,,BeGo3TSuhF7fOv0dzp0s1g,pizzeria-credo-seattle,2.0,98116,West Seattle
+417,0zOQ6gbOERAi-FoeM4fAig,La Rustica,4100 Beach Dr SW,Seattle,WA,98116,47.5674,-122.40933000000001,,386,4.0,$$$,,,,0zOQ6gbOERAi-FoeM4fAig,la-rustica-seattle,2.0,98116,West Seattle
+418,e3rmgBkB860xpIJD1yiIvw,Gyro Heroes,4111 SW Admiral Way,Seattle,WA,98116,47.58101,-122.38408999999999,,156,5.0,$$,,,,e3rmgBkB860xpIJD1yiIvw,gyro-heroes-seattle-2,1.0,98116,West Seattle
+419,YfPrEl86xGoGVltE8QgRGg,Seattle Fish Company,4435 California Ave SW,Seattle,WA,98116,47.563664506441,-122.38692820072201,,418,4.0,$$,,,,YfPrEl86xGoGVltE8QgRGg,seattle-fish-company-seattle,2.0,98116,West Seattle
+420,J0b8Te_N1DgtutZLsFZOSQ,Sunfish,2800 Alki Ave SW,Seattle,WA,98116,47.5784187316895,-122.41219329834,,279,4.0,$$,,,,J0b8Te_N1DgtutZLsFZOSQ,sunfish-seattle,1.0,98116,West Seattle
+421,i5l44iAFeMC80o4vDLh3Gg,West Seattle Swinery,3207 California Ave SW,Seattle,WA,98116,47.575356,-122.387147,,341,4.5,$$,,,,i5l44iAFeMC80o4vDLh3Gg,west-seattle-swinery-seattle,1.0,98116,West Seattle
+422,Jm4BDL94PQmfGuVZxDKytg,Circa,2605 California Ave SW,Seattle,WA,98116,47.5809,-122.38683,,370,4.0,$$,,,,Jm4BDL94PQmfGuVZxDKytg,circa-seattle,2.0,98116,West Seattle
+423,LaF6ZwGWP-y8pAs5M3LUBQ,JaK's Grill,4548 California Ave SW,Seattle,WA,98116,47.56135,-122.38656,,508,4.0,$$,,,,LaF6ZwGWP-y8pAs5M3LUBQ,jaks-grill-seattle,2.0,98116,West Seattle
+424,LaF6ZwGWP-y8pAs5M3LUBQ,JaK's Grill,4548 California Ave SW,Seattle,WA,98116,47.56135,-122.38656,,508,4.0,$$,,,,LaF6ZwGWP-y8pAs5M3LUBQ,jaks-grill-seattle,1.0,98116,West Seattle
+425,Z3eU4XrLGAWBd5PNJtRk-Q,Duke's Seafood & Chowder,2516 Alki Ave SW,Seattle,WA,98116,47.580856,-122.4059175,,538,3.5,$$,,,,Z3eU4XrLGAWBd5PNJtRk-Q,dukes-seafood-and-chowder-seattle-4,1.0,98116,West Seattle
+426,ye3n048GGn9Nl7X9jAQOwg,Cactus Restaurants,2820 Alki Ave SW,Seattle,WA,98116,47.578280078447506,-122.413087476886,,787,4.0,$$,,,,ye3n048GGn9Nl7X9jAQOwg,cactus-restaurants-seattle-2,1.0,98116,West Seattle
+427,5syT0YMV8UbcUOFVokrpRg,Yum Yum Cafe,10850 Myers Way S,Seattle,WA,98168,47.50543,-122.33326000000001,,20,4.0,,,,,5syT0YMV8UbcUOFVokrpRg,yum-yum-cafe-seattle-2,1.0,98168,SeaTac
+428,Fnn8DbblPlC-gtiFTrUyEw,Buddha Ruksa,3520 SW Genesee St,Seattle,WA,98126,47.564769,-122.377232,,885,4.0,$$,,,,Fnn8DbblPlC-gtiFTrUyEw,buddha-ruksa-seattle,3.0,98126,West Seattle
+429,PPQl2cGmihUtYh5aZ98ayg,Luna Park Cafe,2918 SW Avalon Way,Seattle,WA,98126,47.57067,-122.37100000000001,,668,4.0,$$,,,,PPQl2cGmihUtYh5aZ98ayg,luna-park-cafe-seattle,2.0,98126,West Seattle
+430,hQADhiQXHw2LLtJ4VXlK3w,The Habit Burger Grill,3501 SW Avalon Way,Seattle,WA,98126,47.5639,-122.37643999999999,,33,3.0,,,,,hQADhiQXHw2LLtJ4VXlK3w,the-habit-burger-grill-seattle-8,2.0,98126,West Seattle
+431,hQADhiQXHw2LLtJ4VXlK3w,The Habit Burger Grill,3501 SW Avalon Way,Seattle,WA,98126,47.5639,-122.37643999999999,,33,3.0,,,,,hQADhiQXHw2LLtJ4VXlK3w,the-habit-burger-grill-seattle-8,1.0,98126,West Seattle
+432,lWNDsmvF6Lo0L4DMM9S3Hw,Pecos Pit Bar-B-Que,4400 35th Ave SW,Seattle,WA,98126,47.5647904693404,-122.37590605149401,,270,3.5,$$,,,,lWNDsmvF6Lo0L4DMM9S3Hw,pecos-pit-bar-b-que-seattle-2,1.0,98126,West Seattle
+433,d6ZDAieRmizky5v-bWmjCQ,Jones Barbeque,4417 Fauntleroy Way SW,Seattle,WA,98126,47.5643,-122.3777,,305,3.5,$$,,,,d6ZDAieRmizky5v-bWmjCQ,jones-barbeque-seattle-6,2.0,98126,West Seattle
+434,lGVfEtjoQZN2zP0zepX1AA,Girls Gone BBQ,,Seattle,WA,98126,47.5665435791016,-122.37522125244101,,21,4.5,$$,,,,lGVfEtjoQZN2zP0zepX1AA,girls-gone-bbq-seattle,1.0,98126,West Seattle
+435,TTxv-x3RZtqPHasTL45yjg,Byte Food Truck,4611 36th Ave SW,Seattle,WA,98126,47.56171,-122.37777,,23,4.0,$,,,,TTxv-x3RZtqPHasTL45yjg,byte-food-truck-seattle,,98126,West Seattle
+436,_eo6NuYUrqjTkUOdvm9m5w,Taco Time,3500 SW Avalon Way,Seattle,WA,98126,47.5644760131836,-122.37652587890601,,115,3.5,$,,,,_eo6NuYUrqjTkUOdvm9m5w,taco-time-seattle-3,2.0,98126,West Seattle
+437,_eo6NuYUrqjTkUOdvm9m5w,Taco Time,3500 SW Avalon Way,Seattle,WA,98126,47.5644760131836,-122.37652587890601,,115,3.5,$,,,,_eo6NuYUrqjTkUOdvm9m5w,taco-time-seattle-3,1.0,98126,West Seattle
+438,N-SOa96QnIPHgMXiq4Y6CQ,West Seattle Brewing Company,4415 Fauntleroy Way SW,Seattle,WA,98126,47.564343799999996,-122.37767439999999,,82,3.5,$,,,,N-SOa96QnIPHgMXiq4Y6CQ,west-seattle-brewing-company-seattle,1.0,98126,West Seattle
+439,IsvlaFF0EPEhh3ahTuC4xg,Marination Ma Kai,1660 Harbor Ave SW,Seattle,WA,98126,47.589554729538605,-122.380718663883,,1007,4.0,$$,,,,IsvlaFF0EPEhh3ahTuC4xg,marination-ma-kai-seattle,1.0,98126,West Seattle
+440,vCbf2DGzH1W1L6-jZDNoGw,West Seattle Fish House,9005 35th Ave SW,Seattle,WA,98126,47.522609700000004,-122.3768997,,172,4.5,$,,,,vCbf2DGzH1W1L6-jZDNoGw,west-seattle-fish-house-seattle,1.0,98126,West Seattle
+441,crZp5-JAsKgWkW1akEYJsQ,The Westy,7908 35th Ave SW,Seattle,WA,98126,47.53156,-122.37618,,209,4.5,$$,,,,crZp5-JAsKgWkW1akEYJsQ,the-westy-seattle-2,1.0,98126,West Seattle
+442,Ukvhaa1d9IZQpmrUgDf1QA,Skylark Café & Club,3803 Delridge Way SW,Seattle,WA,98106,47.5700235,-122.36238,,212,4.0,$$,,,,Ukvhaa1d9IZQpmrUgDf1QA,skylark-cafÃ©-and-club-seattle-2,1.0,98106,West Seattle
+443,hrhcGnPPpyQVkInd-dy5ug,Chelan Cafe,3527 Chelan Ave SW,Seattle,WA,98106,47.5718508,-122.3605791,,146,3.5,$,,,,hrhcGnPPpyQVkInd-dy5ug,chelan-cafe-seattle,2.0,98106,West Seattle
+444,GQK5SFvzMPtDVv2ckbzzKw,Delridge Deli Mart,3861 Delridge Way SW,Seattle,WA,98106,47.56858,-122.36384,,9,3.0,$,,,,GQK5SFvzMPtDVv2ckbzzKw,delridge-deli-mart-seattle,2.0,98106,West Seattle
+445,ahbAsTx0HkuqY_W6wAJj0w,Subway Restaurants,3829 Delridge Way SW,Seattle,WA,98106,47.56877,-122.36368999999999,,21,2.5,$,,,,ahbAsTx0HkuqY_W6wAJj0w,subway-restaurants-seattle-41,1.0,98106,West Seattle
+446,VYh73gBMiHlfWkU6n5yxLw,Uptown Espresso - Delridge,3845 Delridge Way SW,Seattle,WA,98106,47.568709999999996,-122.36375,,114,4.0,$,,,,VYh73gBMiHlfWkU6n5yxLw,uptown-espresso-delridge-seattle-2,1.0,98106,West Seattle
+447,OaxLsM4V3PD2eAn-wq2oig,Crawfish House,9826 16th Ave SW,Seattle,WA,98106,47.514719899999996,-122.35484,,671,4.0,$$,,,,OaxLsM4V3PD2eAn-wq2oig,crawfish-house-seattle,2.0,98106,West Seattle
+448,G-p5SgQnBM5e8XxMMO1qOg,Pho Aroma,5605 Delridge Way SW,Seattle,WA,98106,47.55172,-122.36327,,351,4.0,$,,,,G-p5SgQnBM5e8XxMMO1qOg,pho-aroma-seattle-2,2.0,98106,West Seattle
+449,eQSTMuWBtlYycv8fX5cVYA,Anju Bar and Eatery,9641 15th Ave SW,Seattle,WA,98106,47.516039899999996,-122.35433,,63,4.5,$$,,,,eQSTMuWBtlYycv8fX5cVYA,anju-bar-and-eatery-seattle-2,1.0,98106,West Seattle
+450,m2xw4x-LCVg3zp8d-epmHA,Biscuit Bitch,9602 16th Ave SW,Seattle,WA,98106,47.51719620000001,-122.35476299999999,,31,3.5,$$,,,,m2xw4x-LCVg3zp8d-epmHA,biscuit-bitch-seattle-32,1.0,98106,West Seattle
+451,6LCyeuEUxYS2WAERI5uTpA,Noble Barton,9635 16th Ave SW,Seattle,WA,98106,47.5162,-122.35556000000001,,297,4.5,$$,,,,6LCyeuEUxYS2WAERI5uTpA,noble-barton-seattle-2,1.0,98106,West Seattle
+452,4eS9JFF7rmvdUESOHp7T1w,Wanna Teriyaki & Burger,1513 SW Holden St,Seattle,WA,98106,47.533537648599996,-122.35455383780099,,139,4.5,$,,,,4eS9JFF7rmvdUESOHp7T1w,wanna-teriyaki-and-burger-seattle,3.0,98106,West Seattle
+453,DgNKaOrCZg4CB51QY2DHMQ,Eight Row,7102 Woodlawn Ave NE,Seattle,WA,98115,47.68012,-122.32437,,50,4.5,,,,,DgNKaOrCZg4CB51QY2DHMQ,eight-row-seattle,1.0,98115,North East Seattle
+454,dCwO2S65LZHuPg-WkKVajQ,Brunello Ristorante,7115 Roosevelt Way NE,Seattle,WA,98115,47.68065,-122.31765,,185,4.5,$$,,,,dCwO2S65LZHuPg-WkKVajQ,brunello-ristorante-seattle,1.0,98115,North East Seattle
+455,RS-Hlsx7k90m5QODHDs5Cg,Tapas Lab,7012 Woodlawn Ave NE,Seattle,WA,98115,47.67934,-122.32439,,133,4.5,$$,,,,RS-Hlsx7k90m5QODHDs5Cg,tapas-lab-seattle,1.0,98115,North East Seattle
+456,kgxtzOiI8hVWmxdj4az8Bg,Ephesus Restaurant,5245 California Ave SW,Seattle,WA,98136,47.555145263671896,-122.387420654297,,210,4.0,$$,,,,kgxtzOiI8hVWmxdj4az8Bg,ephesus-restaurant-seattle,1.0,98136,West Seattle
+457,wfumpPAmHic9jEOQvq2mAg,The Bridge,6301 California Ave SW,Seattle,WA,98136,47.546535999999996,-122.387666,,266,4.0,$$,,,,wfumpPAmHic9jEOQvq2mAg,the-bridge-seattle-3,2.0,98136,West Seattle
+458,cq7w-brmLWcgJ2BeTOkyJQ,New Luck Toy,5905 California Ave SW,Seattle,WA,98136,47.5501141746467,-122.38725378447701,,206,3.5,$$,,,,cq7w-brmLWcgJ2BeTOkyJQ,new-luck-toy-seattle-2,2.0,98136,West Seattle
+459,wUOOAjZcnE2sOd2_9SSyJw,The Dolar Shop,11020 NE 6th St,Bellevue,WA,98004,47.61572,-122.19318,,472,4.0,$$$,,,,wUOOAjZcnE2sOd2_9SSyJw,the-dolar-shop-bellevue,2.0,98004,Bellevue
+460,ywXCcLbaf6yDfIm84QxZPQ,Din Tai Fung,700 Bellevue Way NE,Bellevue,WA,98004,47.61697,-122.20123000000001,,3777,4.0,$$,,,,ywXCcLbaf6yDfIm84QxZPQ,din-tai-fung-bellevue-4,1.0,98004,Bellevue

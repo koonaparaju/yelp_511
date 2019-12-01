@@ -23,7 +23,24 @@ HTMLWidgets.widget({
                   keys: {
                         x: 'rating',
                         value: 'count'
-                  }
+                  },
+                  onclick: function(d, element) {
+
+                    // id of pie to shiny to input$chartId_click
+                    var inputId =  "pie1";
+
+                    // pie slice label
+                    var value = 'test';
+                    //d.id;
+                    console.log("test");
+                    console.log(inputId);
+                    console.log(d);
+                    console.log(element);
+                    // send message to shiny
+                  Shiny.setInputValue(inputId,value);
+
+                },
+
               },
               axis: {
                       x: {
