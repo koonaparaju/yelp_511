@@ -4,12 +4,17 @@ library(leaflet)
 library(C3)
 library(dplyr)
 library(shinydashboard)
-
+library(data.table)
+library(DT)
 r_colors <- rgb(t(col2rgb(colors()) / 255))
 names(r_colors) <- colors()
 
 business_csv <- 'data/business_parsed.csv'
-result <- read.csv(business_csv, header = TRUE, sep = ',')
+result <- fread(business_csv, header = TRUE)
+result[Grade == 1, Sanitation := 'Excellent']
+result[Grade == 2, Sanitation := 'Good']
+result[Grade == 3, Sanitation := 'Okay']
+result[Grade == 4, Sanitation := 'Needs to Improve']
 
 getSeries <- function( n = 100, drift = 0.1, walk = 4, scale = 100){
   y <- scale * cumsum(rnorm(n= n, mean = drift, sd=sqrt(walk)))
@@ -25,7 +30,7 @@ body <- dashboardBody(
              # The id lets us use input$tabset1 on the server to find the current tab
              id = "tabset1", height = "250px",
              tabPanel("Map", "Key Variables"),
-             tabPanel("Data Table", "")
+             tabPanel("Data Table", DT::dataTableOutput('table'))
            )
            ),
     column(width = 3,
@@ -104,6 +109,11 @@ server <- function(input, output, session){
     dataset <- count(result, rating, name='count')
     C3BarChart(dataset)
   })
+  df = result[,c('business_id','name','address','city','state','postal_code','rating','review_count','price','Sanitation','location')]
+  setnames(df, c('name','address','city','state','postal_code','rating','review_count','price','Sanitation','location'), 
+           c('Name','Address','City','State','Zipcode','Rating','# of Reviews', 'Price','Food Safety Rating', 'Neighborhood'))
+  output$table = DT::renderDataTable(df[, !"business_id"], server = TRUE)
+  
   observeEvent(input$location,{
     if (is.null(input$location))
       return()
