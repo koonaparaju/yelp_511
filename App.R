@@ -15,7 +15,9 @@ result[Grade == 1, Sanitation := 'Excellent']
 result[Grade == 2, Sanitation := 'Good']
 result[Grade == 3, Sanitation := 'Okay']
 result[Grade == 4, Sanitation := 'Needs to Improve']
-
+result = result[,c('business_id','name','address','city','state','postal_code','rating','review_count','price','Sanitation','location','longitude','latitude')]
+setnames(result, c('name','address','city','state','postal_code','rating','review_count','price','Sanitation','location'), 
+         c('Name','Address','City','State','Zipcode','Rating','# of Reviews', 'Price','Food Safety Rating', 'Neighborhood'))
 getSeries <- function( n = 100, drift = 0.1, walk = 4, scale = 100){
   y <- scale * cumsum(rnorm(n= n, mean = drift, sd=sqrt(walk)))
   return(y + abs(min(y)))
@@ -32,14 +34,17 @@ body <- dashboardBody(
              tabPanel("Map", "Key Variables"),
              tabPanel("Data Table", DT::dataTableOutput('table'))
            )
-           ),
+    ),
     column(width = 3,
            box(width = NULL),
-           selectInput('location', 'Location', choices = unique(result$location), selected = 'Pioneer Square'),
-           
+           selectInput('location', label = 'Location', choices = unique(result$Neighborhood), multiple=TRUE, selected = 'Pioneer Square'),
+           selectInput('sanitation', label = 'Sanitation', choices = unique(result$`Food Safety Rating`), multiple=TRUE, selectize=TRUE, selected = 'Good'),
+           selectInput('price', label = 'Price', choices = unique(result$Price),multiple=TRUE, selectize=TRUE, selected = c('','$','$$','$$$','$$$$')),
+           sliderInput("review", label = "Review", min = 0, max = 5, value = c(4, 5)),
+           sliderInput("review_count", label = "Minimum # of Reviews", min = 0, max = 1000, value = 100),
            C3PieOutput('pie1',height = 250),
            C3BarChartOutput('barchart', height = 250)
-           )
+    )
   )
 )
 
@@ -78,9 +83,16 @@ server <- function(input, output, session){
   # points <- eventReactive(input$recalc, {
   #   cbind(result$longitude, result$latitude)
   # }, ignoreNULL = FALSE)
-  points <- cbind(result$longitude, result$latitude)
+  
   
   output$mymap <- renderLeaflet({
+    result = result[Neighborhood %in% input$location &
+                      `Food Safety Rating` %in% input$sanitation &
+                      Price %in% input$price &
+                      Rating >= input$review[1] &
+                      Rating <= input$review[2] &
+                      `# of Reviews` > input$review_count,!"business_id"]
+    points <- cbind(result$longitude, result$latitude)
     leaflet() %>%
       addProviderTiles(providers$Stamen.TonerLite,
                        options = providerTileOptions(noWrap = TRUE)
@@ -109,10 +121,13 @@ server <- function(input, output, session){
     dataset <- count(result, rating, name='count')
     C3BarChart(dataset)
   })
-  df = result[,c('business_id','name','address','city','state','postal_code','rating','review_count','price','Sanitation','location')]
-  setnames(df, c('name','address','city','state','postal_code','rating','review_count','price','Sanitation','location'), 
-           c('Name','Address','City','State','Zipcode','Rating','# of Reviews', 'Price','Food Safety Rating', 'Neighborhood'))
-  output$table = DT::renderDataTable(df[, !"business_id"], server = TRUE)
+  
+  output$table = DT::renderDataTable(result[Neighborhood %in% input$location &
+                                              `Food Safety Rating` %in% input$sanitation &
+                                              Price %in% input$price &
+                                              Rating >= input$review[1] &
+                                              Rating <= input$review[2] &
+                                              `# of Reviews` > input$review_count,!c('business_id','latitude','longitude')], server = TRUE)
   
   observeEvent(input$location,{
     if (is.null(input$location))
@@ -120,18 +135,18 @@ server <- function(input, output, session){
     isolate({
       selectedCity <- geocode(c(input$location))      
       map <- leafletProxy("mymap") %>% clearMarkers() %>% addMarkers(data = points) %>%
-      setView(selectedCity$lon, selectedCity$lat, zoom = 15)
+        setView(selectedCity$lon, selectedCity$lat, zoom = 15)
     })
   })
   
   observeEvent(input$pie1,{
-  
+    
     isolate({
       selectedCity <- geocode(c(input$location))      
       ranking4 = result[result$rating > 4, ]
       points4ranking <- cbind(ranking4$longitude, ranking4$latitude)
       leafletProxy("mymap") %>% clearMarkers() %>% addCircleMarkers(data=points4ranking) %>%
-      setView(selectedCity$lon, selectedCity$lat, zoom = 15)
+        setView(selectedCity$lon, selectedCity$lat, zoom = 15)
     })
   })
 }
