@@ -26,24 +26,24 @@ getSeries <- function( n = 100, drift = 0.1, walk = 4, scale = 100){
 body <- dashboardBody(
   fluidRow(
     column(width = 9,
-           box(width = NULL, solidHeader = TRUE, leafletOutput("mymap")),
-           tabBox(
-             title = "Details",
-             # The id lets us use input$tabset1 on the server to find the current tab
-             id = "tabset1", height = "250px",
-             tabPanel("Map", "Key Variables"),
-             tabPanel("Data Table", DT::dataTableOutput('table'))
-           )
+           box(width = NULL, solidHeader = TRUE, leafletOutput("mymap"))
+           
     ),
     column(width = 3,
-           box(width = NULL),
            selectInput('location', label = 'Location', choices = unique(result$Neighborhood), multiple=TRUE, selected = 'Pioneer Square'),
            selectInput('sanitation', label = 'Sanitation', choices = unique(result$`Food Safety Rating`), multiple=TRUE, selectize=TRUE, selected = 'Good'),
            selectInput('price', label = 'Price', choices = unique(result$Price),multiple=TRUE, selectize=TRUE, selected = c('','$','$$','$$$','$$$$')),
            sliderInput("review", label = "Review", min = 0, max = 5, value = c(4, 5)),
-           sliderInput("review_count", label = "Minimum # of Reviews", min = 0, max = 1000, value = 100),
-           C3PieOutput('pie1',height = 250),
-           C3BarChartOutput('barchart', height = 250)
+           sliderInput("review_count", label = "Minimum # of Reviews", min = 0, max = 1000, value = 100)
+    )
+  ),
+  fluidRow(
+    tabBox(width = 12,
+      title = "Details",
+      # The id lets us use input$tabset1 on the server to find the current tab
+      id = "tabset1", height = "250px",
+      tabPanel("Data Table", DT::dataTableOutput('table')),
+      tabPanel("Drill Down", "Key Variables")
     )
   )
 )
@@ -118,7 +118,7 @@ server <- function(input, output, session){
   })
   
   output$barchart <-renderC3BarChart({
-    dataset <- count(result, rating, name='count')
+    dataset <- count(result, Rating, name='count')
     C3BarChart(dataset)
   })
   
@@ -143,7 +143,7 @@ server <- function(input, output, session){
     
     isolate({
       selectedCity <- geocode(c(input$location))      
-      ranking4 = result[result$rating > 4, ]
+      ranking4 = result[result$Rating > 4, ]
       points4ranking <- cbind(ranking4$longitude, ranking4$latitude)
       leafletProxy("mymap") %>% clearMarkers() %>% addCircleMarkers(data=points4ranking) %>%
         setView(selectedCity$lon, selectedCity$lat, zoom = 15)
