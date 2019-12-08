@@ -33,8 +33,8 @@ body <- dashboardBody(
            selectInput('location', label = 'Location', choices = unique(result$Neighborhood), multiple=TRUE, selected = 'Pioneer Square'),
            selectInput('sanitation', label = 'Sanitation', choices = unique(result$`Food Safety Rating`), multiple=TRUE, selectize=TRUE, selected = 'Good'),
            selectInput('price', label = 'Price', choices = unique(result$Price),multiple=TRUE, selectize=TRUE, selected = c('','$','$$','$$$','$$$$')),
-           sliderInput("review", label = "Review", min = 0, max = 5, value = c(4, 5)),
-           sliderInput("review_count", label = "Minimum # of Reviews", min = 0, max = 1000, value = 100)
+           sliderInput("review", label = "Rating", min = 0, max = 5, value = c(4, 5)),
+           sliderInput("review_count", label = "Minimum # of Ratings", min = 0, max = 1000, value = 100)
     )
   ),
   fluidRow(
