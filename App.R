@@ -11,6 +11,7 @@ names(r_colors) <- colors()
 
 business_csv <- 'data/business_parsed.csv'
 result <- fread(business_csv, header = TRUE)
+categories_list = unique(unlist(strsplit(df$category, split = ":"), recursive = FALSE))
 result[Grade == 1, Sanitation := 'Excellent']
 result[Grade == 2, Sanitation := 'Good']
 result[Grade == 3, Sanitation := 'Okay']
@@ -31,6 +32,7 @@ body <- dashboardBody(
     ),
     column(width = 3,
            selectInput('location', label = 'Location', choices = unique(result$Neighborhood), multiple=TRUE, selected = 'Pioneer Square'),
+           selectInput('category', label = 'Cuisine', choices = categories_list, multiple = TRUE, selected='Asian Fusion'),
            selectInput('sanitation', label = 'Sanitation', choices = unique(result$`Food Safety Rating`), multiple=TRUE, selectize=TRUE, selected = 'Good'),
            selectInput('price', label = 'Price', choices = unique(result$Price),multiple=TRUE, selectize=TRUE, selected = c('','$','$$','$$$','$$$$')),
            sliderInput("review", label = "Rating", min = 0, max = 5, value = c(4, 5)),
@@ -89,6 +91,7 @@ server <- function(input, output, session){
     result = result[Neighborhood %in% input$location &
                       `Food Safety Rating` %in% input$sanitation &
                       Price %in% input$price &
+                      grepl(paste(input$category, collapse="|"), category) &
                       Rating >= input$review[1] &
                       Rating <= input$review[2] &
                       `# of Reviews` > input$review_count,!"business_id"]
@@ -121,10 +124,11 @@ server <- function(input, output, session){
     dataset <- count(result, Rating, name='count')
     C3BarChart(dataset)
   })
-  
+
   output$table = DT::renderDataTable(result[Neighborhood %in% input$location &
                                               `Food Safety Rating` %in% input$sanitation &
                                               Price %in% input$price &
+                                              grepl(paste(input$category, collapse="|"), category) &
                                               Rating >= input$review[1] &
                                               Rating <= input$review[2] &
                                               `# of Reviews` > input$review_count,!c('business_id','latitude','longitude')], server = TRUE)
