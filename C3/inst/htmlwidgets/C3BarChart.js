@@ -20,8 +20,9 @@ HTMLWidgets.widget({
               data: {
                   json:[],
                   type: 'bar',
+
                   keys: {
-                        x: 'rating',
+                        x: 'Rating',
                         value: 'count'
                   },
                   onclick: function(d, element) {
