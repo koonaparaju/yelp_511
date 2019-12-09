@@ -16,9 +16,9 @@ result[Grade == 1, Sanitation := 'Excellent']
 result[Grade == 2, Sanitation := 'Good']
 result[Grade == 3, Sanitation := 'Okay']
 result[Grade == 4, Sanitation := 'Needs to Improve']
-result = result[,c('business_id','name','address','city','state','postal_code','rating','review_count','price','Sanitation','location','longitude','latitude')]
-setnames(result, c('name','address','city','state','postal_code','rating','review_count','price','Sanitation','location'), 
-         c('Name','Address','City','State','Zipcode','Rating','# of Reviews', 'Price','Food Safety Rating', 'Neighborhood'))
+result = result[,c('business_id','name','address','city','state','postal_code','rating','review_count','price','Sanitation','location','longitude','latitude', 'category')]
+setnames(result, c('name','address','city','state','postal_code','rating','review_count','price','Sanitation','location','category'), 
+         c('Name','Address','City','State','Zipcode','Rating','# of Reviews', 'Price','Food Safety Rating', 'Neighborhood','Cuisine'))
 getSeries <- function( n = 100, drift = 0.1, walk = 4, scale = 100){
   y <- scale * cumsum(rnorm(n= n, mean = drift, sd=sqrt(walk)))
   return(y + abs(min(y)))
@@ -91,7 +91,7 @@ server <- function(input, output, session){
     result = result[Neighborhood %in% input$location &
                       `Food Safety Rating` %in% input$sanitation &
                       Price %in% input$price &
-                      grepl(paste(input$category, collapse="|"), category) &
+                      grepl(paste(input$category, collapse="|"), Cuisine) &
                       Rating >= input$review[1] &
                       Rating <= input$review[2] &
                       `# of Reviews` > input$review_count,!"business_id"]
@@ -128,20 +128,20 @@ server <- function(input, output, session){
   output$table = DT::renderDataTable(result[Neighborhood %in% input$location &
                                               `Food Safety Rating` %in% input$sanitation &
                                               Price %in% input$price &
-                                              grepl(paste(input$category, collapse="|"), category) &
+                                              grepl(paste(input$category, collapse="|"), Cuisine) &
                                               Rating >= input$review[1] &
                                               Rating <= input$review[2] &
                                               `# of Reviews` > input$review_count,!c('business_id','latitude','longitude')], server = TRUE)
-  
-  observeEvent(input$location,{
-    if (is.null(input$location))
-      return()
-    isolate({
-      selectedCity <- geocode(c(input$location))      
-      map <- leafletProxy("mymap") %>% clearMarkers() %>% addMarkers(data = points) %>%
-        setView(selectedCity$lon, selectedCity$lat, zoom = 15)
-    })
-  })
+  # 
+  # observeEvent(input$location,{
+  #   if (is.null(input$location))
+  #     return()
+  #   isolate({
+  #     selectedCity <- geocode(c(input$location))      
+  #     map <- leafletProxy("mymap") %>% clearMarkers() %>% addMarkers(data = points) %>%
+  #       setView(selectedCity$lon, selectedCity$lat, zoom = 15)
+  #   })
+  # })
   
   observeEvent(input$pie1,{
     
