@@ -6,6 +6,7 @@ library(dplyr)
 library(shinydashboard)
 library(data.table)
 library(DT)
+library(plotly)
 r_colors <- rgb(t(col2rgb(colors()) / 255))
 names(r_colors) <- colors()
 
