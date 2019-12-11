@@ -130,7 +130,7 @@ server <- function(input, output, session){
             type = 'bar', name = ~paste0("Distribution of ",topic),
             hoverinfo = 'text',
             text = ~paste0(topic,' ',get(topic),
-                          ': </br></br>', metric)))
+                          ': </br></br>', metric)) %>% layout(title = paste0("Distribution of ",topic),xaxis = list(title=topic), yaxis = list(title='Count')))
   })
 
 
