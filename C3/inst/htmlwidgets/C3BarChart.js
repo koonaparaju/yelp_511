@@ -12,18 +12,20 @@ HTMLWidgets.widget({
 
     return {
 
-      renderValue: function(x) {
-
-        if (chart == null){
-          var chart = c3.generate({
+      renderValue: function(barvalues) {
+        console.log(barvalues);
+        if (chart === null){
+          chart = c3.generate({
                       bindto: el,
+                      title : 'Restaurant Ratings',
               data: {
                   json:[],
                   type: 'bar',
+                  labels: true,
 
                   keys: {
-                        x: 'Rating',
-                        value: 'count'
+                        x: barvalues.keyx,
+                        value: 'Rating Count'
                   },
                   onclick: function(d, element) {
 
@@ -45,8 +47,12 @@ HTMLWidgets.widget({
               },
               axis: {
                       x: {
-                          type: 'category'
-                      }
+                          type: 'category',
+                          label: 'Ratings'
+                      },
+                      y: {
+                          label: 'Count'
+                      },
               },
               bar: {
                   width: {
@@ -54,11 +60,14 @@ HTMLWidgets.widget({
                   }
                   // or
         //width: 100 // this makes bar width 100px
+          },
+          legend: {
+            show:true
           }
       });
         }
         chart.load({
-          json  : x.value,
+          json  : barvalues.value,
 
           // unload data that we don't need anymore
           //unload: diff

@@ -19,13 +19,19 @@ result[Grade == 4, Sanitation := 'Needs to Improve']
 result = result[,c('business_id','name','address','city','state','postal_code','rating','review_count','price','Sanitation','location','longitude','latitude', 'category')]
 setnames(result, c('name','address','city','state','postal_code','rating','review_count','price','Sanitation','location','category'), 
          c('Name','Address','City','State','Zipcode','Rating','# of Reviews', 'Price','Food Safety Rating', 'Neighborhood','Cuisine'))
+
+result[, popuphtml:= paste(sep = "<br/>",
+                           Name,
+                           Address,
+                           paste(City,", ", State, Zipcode))]
+result[is.na(result)] <- "None"
+
 getSeries <- function( n = 100, drift = 0.1, walk = 4, scale = 100){
   y <- scale * cumsum(rnorm(n= n, mean = drift, sd=sqrt(walk)))
   return(y + abs(min(y)))
 }
 drilldown <- fluidRow(
-  column(width = 3, C3BarChartOutput('barchart', height = 250)),
-  column(width = 3, C3BarChartOutput('sanitation', height = 250))
+  column(width = 3, C3BarChartOutput('barchart', height = 250))
 )
 body <- dashboardBody(
   fluidRow(
@@ -61,6 +67,7 @@ ui <- dashboardPage(
 
 
 server <- function(input, output, session){
+  
   reactiveresult <- reactive({
     result[Neighborhood %in% input$location &
              `Food Safety Rating` %in% input$sanitation &
@@ -70,20 +77,32 @@ server <- function(input, output, session){
              Rating <= input$review[2] &
              `# of Reviews` > input$review_count,!"business_id"]
   })
+  
+  getColor <- function(result) {
+    ifelse(result$`Food Safety Rating` %in% c("Excellent","Good"), "green", "red")
+  }
+  
   output$mymap <- renderLeaflet({
     newdata = reactiveresult()
+    icons <- awesomeIcons(
+      icon = 'ios-close',
+      iconColor = 'black',
+      library = 'ion',
+      markerColor = getColor(newdata)
+    )
+    
     points <- cbind(newdata$longitude, newdata$latitude)
-    leaflet() %>%
+    leaflet(newdata) %>%
       addProviderTiles(providers$Stamen.TonerLite,
                        options = providerTileOptions(noWrap = TRUE)
       ) %>%
-      addMarkers(data = points)
+      addAwesomeMarkers(~longitude, ~latitude, icon=icons, popup = ~(popuphtml))
   })
   
   output$barchart <-renderC3BarChart({
     newdata = reactiveresult()
     cat(file=stderr(), "drawing histogram with",length(newdata$Rating), "bins", "\n")
-    dataset <- count(newdata, Rating, name='count')
+    dataset <- count(newdata, Rating, name='Rating Count')
     cat(file=stderr(), "drawing histogram with",length(dataset), "bins", "\n")
     C3BarChart(dataset, 'Rating')
   })
@@ -91,30 +110,14 @@ server <- function(input, output, session){
   output$sanitation <-renderC3BarChart({
     newdata = reactiveresult()
     cat(file=stderr(), "drawing histogram with",length(newdata$Rating), "bins", "\n")
-    dataset <- count(newdata, `Food Safety Rating`, name='count')
-    setnames(dataset, c('Rating','count'))
+    dataset <- count(newdata, Price, name='count')
+    setnames(dataset, c('Price','count'))
     cat(file=stderr(), "drawing histogram with",length(dataset), "bins", "\n")
-    C3BarChart(dataset, 'Rating')
+    C3BarChart(dataset, 'Price')
   })
 
-  # output$table = DT::renderDataTable(result[Neighborhood %in% input$location &
-  #                                             `Food Safety Rating` %in% input$sanitation &
-  #                                             Price %in% input$price &
-  #                                             grepl(paste(input$category, collapse="|"), Cuisine) &
-  #                                             Rating >= input$review[1] &
-  #                                             Rating <= input$review[2] &
-  #                                             `# of Reviews` > input$review_count,!c('business_id','latitude','longitude')], server = TRUE)
+  
   output$table = DT::renderDataTable(reactiveresult(), server = TRUE)
-  # 
-  # observeEvent(input$location,{
-  #   if (is.null(input$location))
-  #     return()
-  #   isolate({
-  #     selectedCity <- geocode(c(input$location))      
-  #     map <- leafletProxy("mymap") %>% clearMarkers() %>% addMarkers(data = points) %>%
-  #       setView(selectedCity$lon, selectedCity$lat, zoom = 15)
-  #   })
-  # })
   
   observeEvent(input$pie1,{
     
@@ -128,23 +131,4 @@ server <- function(input, output, session){
   })
 }
 
-
-ui_2 <- fluidPage(
-  titlePanel("Foodie call"),
-  sidebarLayout(
-    position = "right",
-    sidebarPanel(
-      fluidRow(selectInput('location', 'Location', choices = unique(result$city), selected = 'Seattle')),
-      
-      # example use of the automatically generated output function
-      #C3GaugeOutput("gauge1")
-      fluidRow(C3PieOutput('pie1',height = 250)), 
-      fluidRow(C3LineBarChartOutput('linebarchart', height = 250)), 
-      fluidRow(C3BarChartOutput('barchart', height = 250)) 
-    ),
-    mainPanel(
-      leafletOutput("mymap")
-    )
-  )
-)
 shinyApp(ui = ui, server = server)

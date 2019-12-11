@@ -5,12 +5,13 @@
 #' @import htmlwidgets
 #'
 #' @export
-C3BarChart <- function(value, width = NULL, height = NULL) {
+C3BarChart <- function(value, keyx = 'Rating', width = NULL, height = NULL) {
 
   # forward options using x
   x = list(
-    value = value
-  )
+    value = value,
+    keyx = keyx
+    )
   #x <- value
 
   # create widget
