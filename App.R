@@ -7,6 +7,7 @@ library(shinydashboard)
 library(data.table)
 library(DT)
 library(plotly)
+library(tidyr)
 r_colors <- rgb(t(col2rgb(colors()) / 255))
 names(r_colors) <- colors()
 
@@ -124,9 +125,19 @@ server <- function(input, output, session){
   # })
   output$barchart = renderPlotly({
     topic = input$topic
+    if (topic == 'Cuisine') {
+      dataset = result %>% 
+        mutate(Cuisine = strsplit(as.character(Cuisine), ", ")) %>% 
+        unnest(Cuisine) %>% count(., Cuisine, name = 'metric')
+      dataset[[topic]] = as.factor(dataset[[topic]])
+      dataset = dataset[order(dataset$metric, decreasing = TRUE),]
+      dataset$Cuisine <- ordered(dataset$Cuisine, levels = dataset$Cuisine)
+    }
+    else {
     dataset <- count(reactiveresult(), get(topic), name='metric')
     setnames(dataset,'get(topic)', topic)
     dataset[[topic]] = as.factor(dataset[[topic]])
+    }
     print(plot_ly(dataset, x = ~get(topic), y = ~metric, 
             type = 'bar', name = ~paste0("Distribution of ",topic),
             hoverinfo = 'text',
